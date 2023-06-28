@@ -34,8 +34,6 @@ Ontology matching (OM) can be defined as the process of finding correspondences 
 
 In this project, you will generate a set of alignments between the modules developed inside Polifonia and relevant state-of-the-art ontologies.
 
-Relevant ontologies to be aligned to PON can be found in this deliverable ([link](https://polifonia-project.eu/wp-content/uploads/2022/01/Polifonia_D2.1_V1.0.pdf), [backup](./Polifonia_D2.1_V1.0.pdf)), section 6.2
-
 ## Other ontologies
 Based on Polifonia:
 * [smashub/choco](https://github.com/smashub/choco), basato su Polifonia
@@ -43,9 +41,9 @@ Based on Polifonia:
 Other ontologies:
 * Main target for alignment: [Wikidata](https://www.wikidata.org/wiki/Wikidata:WikiProject_Music)
 * Nice to have: [Music Ontology](http://musicontology.com/)
-* Nice to have: [DOREMUS](ttps://data.doremus.org/ontology/)
+* Nice to have: [DOREMUS](https://data.doremus.org/ontology/)
 
-Full list: [link](https://github.com/polifonia-project/ontology-network/blob/5e90aefa25217547eddd4816bdae719b0e52daac/resources/d21-ontologies.pdf), [rotated version](./d21-ontologies.pdf)
+Full list: [link](https://github.com/polifonia-project/ontology-network/blob/5e90aefa25217547eddd4816bdae719b0e52daac/resources/d21-ontologies.pdf), [rotated version](./d21-ontologies.pdf) (source: [deliverable 2](https://polifonia-project.eu/wp-content/uploads/2022/01/Polifonia_D2.1_V1.0.pdf), section 6.2)
 
 ## Methods
 
@@ -87,7 +85,7 @@ From [the repo](https://github.com/polifonia-project/ontology-network/):
 
 [Diagram](./modules.png)
 
-From [the spec](./Polifonia_D2.1_V1.0.pdf), page 13, and [the top level ontology](https://github.com/polifonia-project/ontology-network/blob/5e90aefa25217547eddd4816bdae719b0e52daac/ontology/ontology-network.owl)
+From [the deliverable 2](https://polifonia-project.eu/wp-content/uploads/2022/01/Polifonia_D2.1_V1.0.pdf), page 13, and [the top level ontology](https://github.com/polifonia-project/ontology-network/blob/5e90aefa25217547eddd4816bdae719b0e52daac/ontology/ontology-network.owl)
 
 Ontology Module | Prefix | Declared repository | Actual repository | URI
 -----|-----|-----|-----|-----
