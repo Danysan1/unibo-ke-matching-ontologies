@@ -37,13 +37,15 @@ In this project, you will generate a set of alignments between the modules devel
 Relevant ontologies to be aligned to PON can be found in this deliverable ([link](https://polifonia-project.eu/wp-content/uploads/2022/01/Polifonia_D2.1_V1.0.pdf), [backup](./Polifonia_D2.1_V1.0.pdf)), section 6.2
 
 ## Other ontologies
+Based on Polifonia:
+* [smashub/choco](https://github.com/smashub/choco), basato su Polifonia
 
-[link](https://github.com/polifonia-project/ontology-network/blob/5e90aefa25217547eddd4816bdae719b0e52daac/resources/d21-ontologies.pdf), [backup](./d21-ontologies.pdf)
-
-* Necessario: [Wikidata](https://www.wikidata.org/wiki/Wikidata:WikiProject_Music)
-* Nice to have: [smashub/choco](https://github.com/smashub/choco), basato su Polifonia
+Other ontologies:
+* Main target for alignment: [Wikidata](https://www.wikidata.org/wiki/Wikidata:WikiProject_Music)
 * Nice to have: [Music Ontology](http://musicontology.com/)
 * Nice to have: [DOREMUS](ttps://data.doremus.org/ontology/)
+
+Full list: [link](https://github.com/polifonia-project/ontology-network/blob/5e90aefa25217547eddd4816bdae719b0e52daac/resources/d21-ontologies.pdf), [rotated version](./d21-ontologies.pdf)
 
 ## Methods
 
