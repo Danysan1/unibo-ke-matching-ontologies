@@ -12,7 +12,7 @@ Tutor:
 
 ### General tasks
 From [Projects2223.pdf](./Projects2223.pdf), page 5
-1.	Analysis of existing datasets using heterogeneous formats, to produce RDF knowledge graphs
+1. Analysis of existing datasets using heterogeneous formats, to produce RDF knowledge graphs
 2. Application of the eXtreme Design methodology (competency questions, ODP reuse, testing, etc.) to develop OWL ontologies for the knowledge graphs
 3. Definition of mapping rules for transforming input data into semantic web knowledge graphs, according to the developed ontologies (e.g., SPARQLAnything)
 4. Generation of URIs and publication of ontologies and knowledge graphs (with permanent URIs)
@@ -36,13 +36,54 @@ In this project, you will generate a set of alignments between the modules devel
 
 Relevant ontologies to be aligned to PON can be found in this deliverable ([link](https://polifonia-project.eu/wp-content/uploads/2022/01/Polifonia_D2.1_V1.0.pdf), [backup](./Polifonia_D2.1_V1.0.pdf)), section 6.2
 
+## Other ontologies
+
+[link](https://github.com/polifonia-project/ontology-network/blob/5e90aefa25217547eddd4816bdae719b0e52daac/resources/d21-ontologies.pdf), [backup](./d21-ontologies.pdf)
+
+* Necessario: [Wikidata](https://www.wikidata.org/wiki/Wikidata:WikiProject_Music)
+* Nice to have: [smashub/choco](https://github.com/smashub/choco), basato su Polifonia
+* Nice to have: [Music Ontology](http://musicontology.com/)
+* Nice to have: [DOREMUS](ttps://data.doremus.org/ontology/)
+
+## Methods
+
+* Manual
+* Automatic (computational)
+    * [BERTMap: A BERT-based Ontology Alignment System](https://arxiv.org/abs/2112.02682)
+
 ## Observations on the ontology
+
+### Versione aggiornata
+
 Observations on the [Polifonia ontology specification](./Polifonia_D2.1_V1.0.pdf) and [the repo](https://github.com/polifonia-project/ontology-network/)
 
-15 ontology modules:
+Ontology modules:
 
 ![Modules](./pon_architecture.png)
-![Module dependencies](./modules.png)
+
+From [the repo](https://github.com/polifonia-project/ontology-network/):
+
+| **Ontology**             | **Prefix** | **Description**                                                                                | **URI**                                                   | **Repository**                                                     |
+|--------------------------|------------|------------------------------------------------------------------------------------------------|-----------------------------------------------------------|--------------------------------------------------------------------|
+| **FULL**                 | pon:       | The FULL ontology module stored in this repository, which imports all the modules listed here. | https://w3id.org/polifonia/ontology/ontology-network/     | https://github.com/polifonia-project/ontology-network/             |
+| **Core**                 | core:      | Elements of general reuse and ontology design patterns.                                        | https://w3id.org/polifonia/ontology/core/                 | https://github.com/polifonia-project/core-ontology                 |
+| **Music Meta**           | mm:        | Achieving interoperability of music metadata.                                                  | https://w3id.org/polifonia/ontology/music-meta/           | https://github.com/polifonia-project/musicmeta-ontology            |
+| **Music Representation** | mr:        | Foundational model to describe arbitrary musical content.                                      | https://w3id.org/polifonia/ontology/music-representation/ | https://github.com/polifonia-project/music-representation-ontology |
+| **Music Instrument**     | mop:       | Instruments and their evolution through time and space.                                        | https://w3id.org/polifonia/ontology/instrument/           | https://github.com/polifonia-project/instrument-ontology           |
+| **Source**               | src:       | Representing musical sources and their context of production.                                  | https://w3id.org/polifonia/ontology/source/               | https://github.com/polifonia-project/source-ontology               |
+| **Tunes**                | tunes:     | A specialisation of Music Meta for folk music.                                                 | https://w3id.org/polifonia/ontology/tunes/                | https://github.com/polifonia-project/tunes-ontology                |
+| **CoMeta**               | com:       | An extension of Music Meta to represent music corpora.                                         | https://w3id.org/polifonia/ontology/cometa/               | https://github.com/polifonia-project/cometa-ontology               |
+| **Music Projection**     | mp:        | Achieving interoperability of music notation systems.                                          | https://w3id.org/polifonia/ontology/music-projection/     | https://github.com/polifonia-project/music-projection-ontology     |
+| **Organs**               | organ:     | A rich descriptive model of organs and building methods.                                       | https://w3id.org/polifonia/ontology/organs/                | https://github.com/polifonia-project/organs-ontology               |
+| **Bells**                | bell:      | Describing bells, bell towers and bell ringers.                                                | https://w3id.org/polifonia/ontology/bells/                 | https://github.com/polifonia-project/bells-ontology                 |
+| **Music Algorithm**     | mx:        | Computational methods for music and their parametrisation.                                     | https://w3id.org/polifonia/ontology/music-algorithm/      | https://github.com/polifonia-project/music-algorithm-ontology      |
+| **Music Analysis**      | ma:        | Music analysis through reasoning using modal-tonal theories.                                   | https://w3id.org/polifonia/ontology/music-analysis/        | https://github.com/polifonia-project/music-analysis-ontology       |
+| **Music Annotation**    | ann:       | A wrapper of ontologies for music annotations (audio, symbolic).                               | https://w3id.org/polifonia/ontology/music-annotation/     | https://github.com/polifonia-project/music-annotation-ontology     |
+
+
+### !! Versione OBSOLETA !!
+
+[Diagram](./modules.png)
 
 From [the spec](./Polifonia_D2.1_V1.0.pdf), page 13, and [the top level ontology](https://github.com/polifonia-project/ontology-network/blob/5e90aefa25217547eddd4816bdae719b0e52daac/ontology/ontology-network.owl)
 
@@ -65,7 +106,3 @@ Music Analysis | ? | NO | [music-analysis-ontology](https://github.com/polifonia
 Music Projection | ? | NO | [music-projection-ontology](https://github.com/polifonia-project/music-projection-ontology) | https://w3id.org/polifonia/ontology/music-projection/
 Music Representation | ? | NO | [music-representation-ontology](https://github.com/polifonia-project/music-representation-ontology) | https://w3id.org/polifonia/ontology/music-representation/
 Tunes | ? | NO | [tunes-ontology](https://github.com/polifonia-project/tunes-ontology) | https://raw.githubusercontent.com/polifonia-project/tunes-ontology/main/ontology/tunes.owl
-
-
-## Other ontologies
-[link](https://github.com/polifonia-project/ontology-network/blob/5e90aefa25217547eddd4816bdae719b0e52daac/resources/d21-ontologies.pdf), [backup](./d21-ontologies.pdf)
