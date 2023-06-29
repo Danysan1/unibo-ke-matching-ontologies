@@ -36,7 +36,7 @@ In this project, you will generate a set of alignments between the modules devel
 
 ## Other ontologies
 Based on Polifonia:
-* [smashub/choco](https://github.com/smashub/choco), basato su Polifonia
+* [smashub/choco](https://github.com/smashub/choco), based on Polifonia
 
 Other ontologies:
 * Main target for alignment: [Wikidata](https://www.wikidata.org/wiki/Wikidata:WikiProject_Music)
@@ -48,12 +48,17 @@ Full list: [link](https://github.com/polifonia-project/ontology-network/blob/5e9
 ## Methods
 
 * Manual
-* Automatic (computational)
+* Automatic (rule-based)
+* Automatic (ML-based)
     * [BERTMap: A BERT-based Ontology Alignment System](https://arxiv.org/abs/2112.02682)
 
-## Observations on the ontology
+Other resources:
+* [Ontology Alignment on ResearchGate](https://www.researchgate.net/topic/Ontology-Alignment/publications)
+* [ontologymatching.org](http://www.ontologymatching.org/projects.html)
 
-### Versione aggiornata
+## Polifonia
+
+### Updated version
 
 Observations on the [Polifonia ontology specification](./Polifonia_D2.1_V1.0.pdf) and [the repo](https://github.com/polifonia-project/ontology-network/)
 
@@ -81,7 +86,7 @@ From [the repo](https://github.com/polifonia-project/ontology-network/):
 | **Music Annotation**    | ann:       | A wrapper of ontologies for music annotations (audio, symbolic).                               | https://w3id.org/polifonia/ontology/music-annotation/     | https://github.com/polifonia-project/music-annotation-ontology     |
 
 
-### !! Versione OBSOLETA !!
+### !! OUTDATED version !!
 
 [Diagram](./modules.png)
 
@@ -106,3 +111,9 @@ Music Analysis | ? | NO | [music-analysis-ontology](https://github.com/polifonia
 Music Projection | ? | NO | [music-projection-ontology](https://github.com/polifonia-project/music-projection-ontology) | https://w3id.org/polifonia/ontology/music-projection/
 Music Representation | ? | NO | [music-representation-ontology](https://github.com/polifonia-project/music-representation-ontology) | https://w3id.org/polifonia/ontology/music-representation/
 Tunes | ? | NO | [tunes-ontology](https://github.com/polifonia-project/tunes-ontology) | https://raw.githubusercontent.com/polifonia-project/tunes-ontology/main/ontology/tunes.owl
+
+## Wikidata
+
+* [Home](https://www.wikidata.org/wiki/Wikidata:Main_Page)
+* [WikiProject Music](https://www.wikidata.org/wiki/Wikidata:WikiProject_Music)
+* [Our workspace](https://www.wikidata.org/wiki/User:Danysan1/Polifonia-Wikidata_matching)
