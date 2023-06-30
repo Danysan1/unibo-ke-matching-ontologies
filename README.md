@@ -49,13 +49,20 @@ Full list: [link](https://github.com/polifonia-project/ontology-network/blob/5e9
 
 * Manual
 * Automatic (rule-based)
+    * AgreementMakerLight
+        * [AgreementMakerLight/AML-Project](https://github.com/AgreementMakerLight/AML-Project) on GitHub
+        * [paper](https://www.semantic-web-journal.net/content/agreementmakerlight-0)
+    * LogMap
+        * [Web front-end](http://krrwebtools.cs.ox.ac.uk/logmap/)
+        * [Website](https://www.cs.ox.ac.uk/isg/tools/LogMap/)
+        * [ernestojimenezruiz/logmap-matcher](https://github.com/ernestojimenezruiz/logmap-matcher) on GitHub
+        * [paper](https://www.cs.ox.ac.uk/isg/projects/LogMap/papers/paper_ISWC2011.pdf)
 * Automatic (ML-based)
     * BERTMap: A BERT-based Ontology Alignment System
-        * [ArXiV](https://arxiv.org/abs/2112.02682)
-        * [Semantic Scholar](https://api.semanticscholar.org/CorpusID:244908737)
-        * [GitHub](https://github.com/KRR-Oxford/BERTMap)
+        * [Paper](https://arxiv.org/abs/2112.02682) on ArXiV
+        * [KRR-Oxford/BERTMap](https://github.com/KRR-Oxford/BERTMap) on GitHub
      * DeepOnto
-        * [GitHub](https://github.com/KRR-Oxford/DeepOnto)
+        * [KRR-Oxford/DeepOnto](https://github.com/KRR-Oxford/DeepOnto) on GitHub
 
 Other resources:
 * [Ontology Alignment on ResearchGate](https://www.researchgate.net/topic/Ontology-Alignment/publications)
