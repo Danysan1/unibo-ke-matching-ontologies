@@ -50,11 +50,16 @@ Full list: [link](https://github.com/polifonia-project/ontology-network/blob/5e9
 * Manual
 * Automatic (rule-based)
 * Automatic (ML-based)
-    * [BERTMap: A BERT-based Ontology Alignment System](https://arxiv.org/abs/2112.02682)
+    * BERTMap: A BERT-based Ontology Alignment System
+        * [ArXiV](https://arxiv.org/abs/2112.02682)
+        * [Semantic Scholar](https://api.semanticscholar.org/CorpusID:244908737)
+        * [GitHub](https://github.com/KRR-Oxford/BERTMap)
+     * DeepOnto
+        * [GitHub](https://github.com/KRR-Oxford/DeepOnto)
 
 Other resources:
 * [Ontology Alignment on ResearchGate](https://www.researchgate.net/topic/Ontology-Alignment/publications)
-* [ontologymatching.org](http://www.ontologymatching.org/projects.html)
+* [ontologymatching.org](http://www.ontologymatching.org/index.html)
 
 ## Polifonia
 
