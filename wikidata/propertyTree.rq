@@ -1,0 +1,28 @@
+#defaultView:Tree
+SELECT ?top ?topLabel ?grandparent ?grandparentLabel ?parent ?parentLabel ?child ?childLabel ?grandchild ?grandchildLabel ?property ?propertyLabel
+WHERE
+{
+  BIND(wd:Q27525351 AS ?top).
+  {
+    ?property wdt:P31 ?top.
+  } UNION {
+    ?grandparent wdt:P279 ?top.
+    ?property wdt:P31 ?grandparent.
+  } UNION {
+    ?grandparent wdt:P279 ?top.
+    ?parent wdt:P279 ?grandparent.
+    ?property wdt:P31 ?parent.
+  } UNION {
+    ?grandparent wdt:P279 ?top.
+    ?parent wdt:P279 ?grandparent.
+    ?child wdt:P279 ?parent.
+    ?property wdt:P31 ?child.
+  } UNION {
+    ?grandparent wdt:P279 ?top.
+    ?parent wdt:P279 ?grandparent.
+    ?child wdt:P279 ?parent.
+    ?grandchild wdt:P279 ?child.
+    ?property wdt:P31 ?grandchild.
+  }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en,fr". } 
+}

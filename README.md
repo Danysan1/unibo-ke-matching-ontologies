@@ -80,11 +80,11 @@ Other resources:
 
 * [Ontology specification](./Polifonia_D2.1_V1.0.pdf)
 * [polifonia-project/ontology-network](https://github.com/polifonia-project/ontology-network/) on GitHub
-* [polifonia.owl](./polifonia.owl) ([download script](./polifonia-download-owl.sh))
+* [OWL ontology](./polifonia/ontology/ontology-network.owl) ([download script](./polifonia/download-ontology.sh))
 
 Ontology modules:
 
-![Modules](./pon_architecture.png)
+![Modules](./polifonia/pon_architecture.png)
 
 | **Ontology**             | **Prefix** | **Description**                                                                                | **URI**                                                   | **Repository**                                                     |
 |--------------------------|------------|------------------------------------------------------------------------------------------------|-----------------------------------------------------------|--------------------------------------------------------------------|
@@ -118,7 +118,7 @@ Some alignments have already been established in the above ontologies through ow
 
 <details><summary>Click to open</summary>
 
-[Diagram](./modules.png)
+[Diagram](./polifonia/modules.png)
 
 From [the deliverable 2](https://polifonia-project.eu/wp-content/uploads/2022/01/Polifonia_D2.1_V1.0.pdf), page 13, and [the top level ontology](https://github.com/polifonia-project/ontology-network/blob/5e90aefa25217547eddd4816bdae719b0e52daac/ontology/ontology-network.owl)
 
@@ -162,4 +162,4 @@ Tunes | ? | NO | [tunes-ontology](https://github.com/polifonia-project/tunes-ont
 
 * [Website](http://musicontology.com/)
 * [Specification](http://musicontology.com/specification/)
-* [music-ontology.owl](./music-ontology.owl) ([fetch script](./music-ontology-dowload-owl.sh))
+* [OWL ontology](./music-ontology/ontology.owl) ([download script](./music-ontology/download-ontology.sh))
