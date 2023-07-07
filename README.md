@@ -69,18 +69,22 @@ Full list: [link](https://github.com/polifonia-project/ontology-network/blob/5e9
 Other resources:
 * [Ontology Alignment on ResearchGate](https://www.researchgate.net/topic/Ontology-Alignment/publications)
 * [ontologymatching.org](http://www.ontologymatching.org/index.html)
+* Owl2Vec*
+    * [Website](https://owl2vec-star.readthedocs.io/en/latest/readme.html)
+    * [KRR-Oxford/OWL2Vec-Star](https://github.com/KRR-Oxford/OWL2Vec-Star) on GitHub
+    * [Paper](https://arxiv.org/abs/2009.14654) on ArXiV
 
 ## Polifonia
 
 ### Updated version
 
-Observations on the [Polifonia ontology specification](./Polifonia_D2.1_V1.0.pdf) and [the repo](https://github.com/polifonia-project/ontology-network/)
+* [Ontology specification](./Polifonia_D2.1_V1.0.pdf)
+* [polifonia-project/ontology-network](https://github.com/polifonia-project/ontology-network/) on GitHub
+* [polifonia.owl](./polifonia.owl) ([download script](./polifonia-download-owl.sh))
 
 Ontology modules:
 
 ![Modules](./pon_architecture.png)
-
-From [the repo](https://github.com/polifonia-project/ontology-network/):
 
 | **Ontology**             | **Prefix** | **Description**                                                                                | **URI**                                                   | **Repository**                                                     |
 |--------------------------|------------|------------------------------------------------------------------------------------------------|-----------------------------------------------------------|--------------------------------------------------------------------|
@@ -99,9 +103,14 @@ From [the repo](https://github.com/polifonia-project/ontology-network/):
 | **Music Analysis**      | ma:        | Music analysis through reasoning using modal-tonal theories.                                   | https://w3id.org/polifonia/ontology/music-analysis/        | https://github.com/polifonia-project/music-analysis-ontology       |
 | **Music Annotation**    | ann:       | A wrapper of ontologies for music annotations (audio, symbolic).                               | https://w3id.org/polifonia/ontology/music-annotation/     | https://github.com/polifonia-project/music-annotation-ontology     |
 
+Some alignments have already been established in the above ontologies through owl:equivalentClass and rdfs:subClassOf.
+
 ### Knowledge Graphs based on Polifonia
 
-* ChoCo (Chord Corpus): [smashub/choco](https://github.com/smashub/choco) on GitHub, [SPARQL endpoint](https://polifonia.disi.unibo.it/choco/sparql)
+* ChoCo (Chord Corpus):
+    * [smashub/choco](https://github.com/smashub/choco) on GitHub
+    * [Website](https://polifonia.disi.unibo.it/choco/)
+    * [SPARQL endpoint](https://polifonia.disi.unibo.it/choco/query)
 * Tunes KG: [SPARQL Endpoint](https://polifonia.disi.unibo.it/tunes/sparql)
 * Organs KG: [SPARQL Endpoint](https://polifonia.disi.unibo.it/organs/sparql)
 
@@ -140,3 +149,17 @@ Tunes | ? | NO | [tunes-ontology](https://github.com/polifonia-project/tunes-ont
 * [Home](https://www.wikidata.org/wiki/Wikidata:Main_Page)
 * [WikiProject Music](https://www.wikidata.org/wiki/Wikidata:WikiProject_Music)
 * [Our workspace](https://www.wikidata.org/wiki/User:Danysan1/Polifonia-Wikidata_matching)
+* [Data sccess documentation](https://www.wikidata.org/wiki/Wikidata:Data_access)
+    * [SPARQL Documentation](https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/Wikidata_Query_Help)
+    * [SPARQL Endpoint](https://query.wikidata.org/)
+    * RDF dump
+        * [Documentation](https://www.wikidata.org/wiki/Wikidata:Database_download#RDF_dumps)
+        * Follows [Wikibase RDF dump format documentation](https://www.mediawiki.org/wiki/Wikibase/Indexing/RDF_Dump_Format)
+        * [Dump files index](https://dumps.wikimedia.org/wikidatawiki/entities/)
+* Built upon [Wikibase](https://wikiba.se/)'s ontology ( http://wikiba.se/ontology-1.0.owl ) but its ontology is not structured nor available in OWL
+
+## Music Ontology
+
+* [Website](http://musicontology.com/)
+* [Specification](http://musicontology.com/specification/)
+* [music-ontology.owl](./music-ontology.owl) ([fetch script](./music-ontology-dowload-owl.sh))
