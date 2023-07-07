@@ -61,8 +61,10 @@ Full list: [link](https://github.com/polifonia-project/ontology-network/blob/5e9
     * BERTMap: A BERT-based Ontology Alignment System
         * [Paper](https://arxiv.org/abs/2112.02682) on ArXiV
         * [KRR-Oxford/BERTMap](https://github.com/KRR-Oxford/BERTMap) on GitHub
-     * DeepOnto
-        * [KRR-Oxford/DeepOnto](https://github.com/KRR-Oxford/DeepOnto) on GitHub
+       * Now maintained under DeepOnto
+          * [Website](https://krr-oxford.github.io/DeepOnto/)
+          * [BERTMap under DeepOnto](https://krr-oxford.github.io/DeepOnto/bertmap/)
+          * [KRR-Oxford/DeepOnto](https://github.com/KRR-Oxford/DeepOnto) on GitHub
 
 Other resources:
 * [Ontology Alignment on ResearchGate](https://www.researchgate.net/topic/Ontology-Alignment/publications)
@@ -97,8 +99,15 @@ From [the repo](https://github.com/polifonia-project/ontology-network/):
 | **Music Analysis**      | ma:        | Music analysis through reasoning using modal-tonal theories.                                   | https://w3id.org/polifonia/ontology/music-analysis/        | https://github.com/polifonia-project/music-analysis-ontology       |
 | **Music Annotation**    | ann:       | A wrapper of ontologies for music annotations (audio, symbolic).                               | https://w3id.org/polifonia/ontology/music-annotation/     | https://github.com/polifonia-project/music-annotation-ontology     |
 
+### Knowledge Graphs based on Polifonia
+
+* ChoCo (Chord Corpus): [smashub/choco](https://github.com/smashub/choco) on GitHub, [SPARQL endpoint](https://polifonia.disi.unibo.it/choco/sparql)
+* Tunes KG: [SPARQL Endpoint](https://polifonia.disi.unibo.it/tunes/sparql)
+* Organs KG: [SPARQL Endpoint](https://polifonia.disi.unibo.it/organs/sparql)
 
 ### !! OUTDATED version !!
+
+<details><summary>Click to open</summary>
 
 [Diagram](./modules.png)
 
@@ -123,6 +132,8 @@ Music Analysis | ? | NO | [music-analysis-ontology](https://github.com/polifonia
 Music Projection | ? | NO | [music-projection-ontology](https://github.com/polifonia-project/music-projection-ontology) | https://w3id.org/polifonia/ontology/music-projection/
 Music Representation | ? | NO | [music-representation-ontology](https://github.com/polifonia-project/music-representation-ontology) | https://w3id.org/polifonia/ontology/music-representation/
 Tunes | ? | NO | [tunes-ontology](https://github.com/polifonia-project/tunes-ontology) | https://raw.githubusercontent.com/polifonia-project/tunes-ontology/main/ontology/tunes.owl
+
+</details>
 
 ## Wikidata
 
