@@ -1,0 +1,6 @@
+tonality,http://purl.org/ontology/tonality/
+chord,http://purl.org/ontology/chord/
+timeline,http://purl.org/NET/c4dm/timeline.owl
+event,http://purl.org/NET/c4dm/event.owl
+mo,http://purl.org/ontology/mo/
+tuning,http://purl.org/ontology/tuning/
