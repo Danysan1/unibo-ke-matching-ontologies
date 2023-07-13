@@ -1,0 +1,16 @@
+CONSTRUCT { ?class ?outputPred ?obj }
+WHERE {
+  SELECT ?class ?outputPred ?obj 
+  WHERE {
+    #VALUES ?top { wd:Q2431196 wd:Q2188189 wd:Q115669410 wd:Q110879422 wd:Q18127 wd:Q32178211 }
+    VALUES (?inputPred ?outputPred) {
+      (rdfs:label rdfs:label)
+      (schema:description schema:description)
+      (skos:altLabel skos:altLabel)
+      (wdt:P1709 owl:equivalentClass)
+      (wdt:P279 rdfs:subClassOf)
+    }
+    ?class wdt:P279* wd:Q2431196; # ?top;
+           ?inputPred ?obj FILTER(isIRI(?obj) || LANG(?obj) = 'en').
+  }
+}

@@ -2,7 +2,7 @@ tonality,http://purl.org/ontology/tonality/
 chord,http://purl.org/ontology/chord/
 timeline,http://purl.org/NET/c4dm/timeline.owl
 event,http://purl.org/NET/c4dm/event.owl
-mo,http://purl.org/ontology/mo/
+mo.original,http://purl.org/ontology/mo/
 tuning,http://purl.org/ontology/tuning/
 keys,http://purl.org/NET/c4dm/keys.owl
-ao-core,http://purl.org/ontology/ao/core
+ao-core.original,http://purl.org/ontology/ao/core

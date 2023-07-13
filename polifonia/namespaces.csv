@@ -6,7 +6,7 @@ music-instrument,https://w3id.org/polifonia/ontology/music-instrument/
 music-algorithm,https://w3id.org/polifonia/ontology/music-algorithm/
 music-analysis,https://w3id.org/polifonia/ontology/music-analysis/
 music-annotation,https://w3id.org/polifonia/ontology/music-annotation/
-music-meta,https://w3id.org/polifonia/ontology/music-meta/
+music-meta.original,https://w3id.org/polifonia/ontology/music-meta/
 music-projection,https://w3id.org/polifonia/ontology/music-projection/
 music-representation,https://w3id.org/polifonia/ontology/music-representation/
 organs,https://w3id.org/polifonia/ontology/organs/

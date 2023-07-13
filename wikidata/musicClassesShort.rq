@@ -1,0 +1,15 @@
+CONSTRUCT {
+  ?class rdf:type owl:Class;
+         rdfs:label ?classLabel;
+         schema:description ?classDescription;
+         skos:altLabel ?classAlias.
+} WHERE {
+  VALUES ?top { wd:Q2431196 wd:Q2188189 wd:Q115669410 wd:Q110879422 wd:Q18127 wd:Q32178211  }
+  ?class wdt:P279* ?top.
+  SERVICE wikibase:label {
+    bd:serviceParam wikibase:language "en".
+    ?class rdfs:label ?classLabel.
+    ?class schema:description ?classDescription.
+    ?class skos:altLabel ?classAlias.
+  } 
+}
