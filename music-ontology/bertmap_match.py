@@ -4,8 +4,8 @@ from deeponto.align.bertmap import BERTMapPipeline, DEFAULT_CONFIG_FILE
 
 #config_file = DEFAULT_CONFIG_FILE
 config_file = "./bertmap.yaml" # use this config file to change the default parameters
-src_onto_file = "../polifonia/ontology/ontology-network.owl"  
-tgt_onto_file = "./ontology.owl" 
+src_onto_file = "../polifonia/ontology/core.owl"  
+tgt_onto_file = "./ontology/mo.owl" 
 
 config = BERTMapPipeline.load_bertmap_config(config_file)
 #BERTMapPipeline.save_bertmap_config(config, "bertmap.yaml") # save config to yaml file

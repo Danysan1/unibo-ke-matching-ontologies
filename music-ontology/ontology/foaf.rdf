@@ -5,6 +5,7 @@
 <!--                                                                             -->
 <!-- first we introduce a number of RDF namespaces we will be using... -->
 <rdf:RDF 
+  xml:base="http://xmlns.com/foaf/0.1/"
 	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
 	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" 
 	xmlns:owl="http://www.w3.org/2002/07/owl#" 
@@ -606,4 +607,3 @@ made this thing.">
    </rdf:Property>
 
 </rdf:RDF>
-
