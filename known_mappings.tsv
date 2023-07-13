@@ -1,0 +1,13 @@
+SrcEntity	TgtEntity	Score
+https://w3id.org/polifonia/ontology/music-meta/MediumOfPerformance	http://data.doremus.org/ontology#M14_Medium_Of_Performance	1.0
+https://w3id.org/polifonia/ontology/music-meta/Award	http://data.doremus.org/ontology#M36_Award	1.0
+https://w3id.org/polifonia/ontology/music-meta/Key	http://data.doremus.org/ontology#M4_Key	1.0
+https://w3id.org/polifonia/ontology/music-meta/MusicGenre	http://data.doremus.org/ontology#M5_Genre	1.0
+https://w3id.org/polifonia/ontology/core/Person	http://erlangen-crm.org/current/E21_Person	1.0
+https://w3id.org/polifonia/ontology/core/Place	http://erlangen-crm.org/efrbroo/F9_Place	1.0
+https://w3id.org/polifonia/ontology/music-meta/MediumOfPerformance	http://data.doremus.org/ontology#M14_Medium_Of_Performance	1.0
+https://w3id.org/polifonia/ontology/music-meta/Award	http://data.doremus.org/ontology#M36_Award	1.0
+https://w3id.org/polifonia/ontology/music-meta/Key	http://data.doremus.org/ontology#M4_Key	1.0
+https://w3id.org/polifonia/ontology/music-meta/MusicGenre	http://data.doremus.org/ontology#M5_Genre	1.0
+https://w3id.org/polifonia/ontology/core/Person	http://erlangen-crm.org/current/E21_Person	1.0
+https://w3id.org/polifonia/ontology/core/Place	http://erlangen-crm.org/efrbroo/F9_Place	1.0
