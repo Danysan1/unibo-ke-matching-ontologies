@@ -5,6 +5,7 @@ import csv
 
 pattern = re.compile(r'https?://(?!w3id.org/polifonia)')
 polifonia_ontology_folder_path = os.path.join(os.getcwd(), 'polifonia', 'ontology')
+known_mappings_file_path = os.path.join(os.getcwd(), 'known_mappings.tsv')
 xml_prefixes = {
     'owl': 'http://www.w3.org/2002/07/owl#',
     'rdf': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'
@@ -13,7 +14,7 @@ subject_class_xpath = ".//owl:Class"
 
 print("Listing", polifonia_ontology_folder_path)
 entries = os.scandir(polifonia_ontology_folder_path)
-with open('known_mappings.tsv', 'w', newline='') as csvfile:
+with open(known_mappings_file_path, 'w', newline='') as csvfile:
     csv_writer = csv.writer(csvfile, delimiter='\t', quotechar='\\', quoting=csv.QUOTE_MINIMAL)
     csv_writer.writerow(['SrcEntity', 'TgtEntity', 'Score'])
     for entry in entries:
