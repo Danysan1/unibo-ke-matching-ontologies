@@ -41,11 +41,11 @@
     <owl:imports rdf:resource="../../NET/c4dm/event.owl"/>
     <owl:imports rdf:resource="../../NET/c4dm/keys.owl"/>
     <owl:imports rdf:resource="../../dc/terms/"/>
-    <owl:imports rdf:resource="https://raw.githubusercontent.com/Danysan1/unibo-ke-matching-ontologies/main/music-ontology/ontology/ao-core.owl"/>
-    <owl:imports rdf:resource="https://raw.githubusercontent.com/Danysan1/unibo-ke-matching-ontologies/main/music-ontology/ontology/bio.rdf"/>
+    <owl:imports rdf:resource="../ao/core"/>
+    <owl:imports rdf:resource="../../vocab/bio/0.1/"/>
     <owl:imports rdf:resource="../../vocab/frbr/core"/>
     <owl:imports rdf:resource="http://www.w3.org/2006/time"/>
-    <owl:imports rdf:resource="https://raw.githubusercontent.com/Danysan1/unibo-ke-matching-ontologies/main/music-ontology/ontology/foaf.rdf"/>
+    <owl:imports rdf:resource="http://xmlns.com/foaf/0.1/"/>
     <owl:versionInfo>Revision: 2.1.5</owl:versionInfo>
     <foaf:maker rdf:resource="http://foaf.me/zazi#me"/>
     <foaf:maker rdf:resource="http://kurtisrandom.com/foaf.rdf#kurtjx"/>
