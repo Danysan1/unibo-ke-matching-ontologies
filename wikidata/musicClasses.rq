@@ -6,7 +6,7 @@ CONSTRUCT {
          rdfs:subClassOf ?superClass;
          owl:equivalentClass ?equivalentClass.
 } WHERE {
-  VALUES ?top { wd:Q2188189 wd:Q115669410 wd:Q110879422 wd:Q18127 wd:Q32178211 }
+  VALUES ?top { wd:Q2188189 wd:Q115669410 wd:Q110879422 wd:Q18127 wd:Q32178211 wd:Q56146933 }
   ?class wdt:P279* ?top.
   OPTIONAL { ?class wdt:P279 ?superClass. }
   OPTIONAL { ?class wdt:P1709 ?equivalentClass. }

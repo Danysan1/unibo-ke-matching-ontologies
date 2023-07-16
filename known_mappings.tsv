@@ -11,3 +11,7 @@ https://w3id.org/polifonia/ontology/music-meta/Key	http://data.doremus.org/ontol
 https://w3id.org/polifonia/ontology/music-meta/MusicGenre	http://data.doremus.org/ontology#M5_Genre	1.0
 https://w3id.org/polifonia/ontology/core/Person	http://erlangen-crm.org/current/E21_Person	1.0
 https://w3id.org/polifonia/ontology/core/Place	http://erlangen-crm.org/efrbroo/F9_Place	1.0
+https://w3id.org/polifonia/ontology/core/Place	http://www.wikidata.org/entity/Q58416391	1.0
+https://w3id.org/polifonia/ontology/core/SpatialObject	http://www.wikidata.org/entity/Q2221906	1.0
+https://w3id.org/polifonia/ontology/core/GeographicalFeature	http://www.wikidata.org/entity/Q618123	1.0
+https://w3id.org/polifonia/ontology/core/Address	http://www.wikidata.org/entity/Q319608	1.0
