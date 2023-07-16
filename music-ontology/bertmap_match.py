@@ -13,8 +13,6 @@ Original file is located at
 # Polifonia - MusicOntology alignment with BERTMap
 """
 
-!pip3 install torch torchvision torchaudio deeponto
-
 from deeponto.onto import Ontology
 from deeponto.align.bertmap import BERTMapPipeline, DEFAULT_CONFIG_FILE
 
@@ -31,7 +29,3 @@ src_onto = Ontology(src_onto_file)
 tgt_onto = Ontology(tgt_onto_file)
 
 bertmap = BERTMapPipeline(src_onto, tgt_onto, config)
-
-!zip -r /content/bertmap-output.zip /content/bertmap/match
-
-!rm -rf /content/bertmap
