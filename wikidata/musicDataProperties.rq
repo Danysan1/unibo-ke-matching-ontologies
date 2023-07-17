@@ -1,6 +1,7 @@
 CONSTRUCT {
   ?prop rdf:type owl:DataTypeProperty;
          rdfs:label ?propLabel;
+         rdfs:domain ?domain;
          rdfs:range ?range;
          schema:description ?propDescription;
          skos:altLabel ?propAlias;
@@ -17,6 +18,14 @@ CONSTRUCT {
   ?prop wikibase:propertyType ?type;
         wdt:P31/wdt:P279* wd:Q27525351;
         rdfs:label ?propLabel FILTER(lang(?propLabel) = 'en').
+  
+  OPTIONAL {
+    ?prop p:P2302 [
+      ps:P2302 wd:Q21503250;
+      pq:P2308 ?domain
+    ].
+  }
+
   OPTIONAL { ?prop schema:description ?propDescription FILTER(lang(?propDescription) = 'en'). }
   OPTIONAL { ?prop skos:altLabel ?propAlias FILTER(lang(?propAlias) = 'en'). }
   OPTIONAL { ?prop wdt:P1628 ?equivalentProp. }
