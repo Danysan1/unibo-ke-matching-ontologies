@@ -6,15 +6,13 @@ CONSTRUCT {
          rdfs:subClassOf ?superClass;
          owl:equivalentClass ?equivalentClass.
 } WHERE {
+  hint:Query hint:optimizer "None".
   VALUES ?top { wd:Q2188189 wd:Q115669410 wd:Q110879422 wd:Q18127 wd:Q32178211 wd:Q56146933 }
-  ?class wdt:P279* ?top.
-  OPTIONAL { ?class wdt:P279 ?superClass. }
+  ?class wdt:P279* ?top;
+         wdt:P279 ?superClass;
+         rdfs:label ?classLabel FILTER(lang(?classLabel) = 'en').
+  OPTIONAL { ?class schema:description ?classDescription FILTER(lang(?classDescription) = 'en'). }
+  OPTIONAL { ?class skos:altLabel ?classAlias FILTER(lang(?classAlias) = 'en'). }
   OPTIONAL { ?class wdt:P1709 ?equivalentClass. }
-  SERVICE wikibase:label {
-    bd:serviceParam wikibase:language "en".
-    ?class rdfs:label ?classLabel.
-    ?class schema:description ?classDescription.
-    ?class skos:altLabel ?classAlias.
-  }
 }
 ORDER BY ?class
