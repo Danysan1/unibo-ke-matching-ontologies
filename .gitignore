@@ -1,5 +1,9 @@
-wikidata/*.rdf
-wikidata/*.owl
+*.rdf
+*.owl
+*.ttl
+!*/ontology/*.rdf
+!*/ontology/*.owl
+!*/ontology/*.ttl
 
 
 # Created by https://www.toptal.com/developers/gitignore/api/python,visualstudiocode

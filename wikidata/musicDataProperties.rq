@@ -1,0 +1,25 @@
+CONSTRUCT {
+  ?prop rdf:type owl:DataTypeProperty;
+         rdfs:label ?propLabel;
+         rdfs:range ?range;
+         schema:description ?propDescription;
+         skos:altLabel ?propAlias;
+         owl:equivalentProperty ?equivalentProp;
+         rdfs:subPropertyOf ?superProp.
+} WHERE {
+  VALUES (?type ?range) { # https://www.wikidata.org/wiki/Help:Data_type#Technical_details
+    (wikibase:Quantity xsd:decimal)
+    (wikibase:Time xsd:dateTime)
+    (wikibase:Monolingualtext xsd:string)
+    (wikibase:String xsd:string)
+    (wikibase:MusicalNotation xsd:string)
+  }
+  ?prop wikibase:propertyType ?type;
+        wdt:P31/wdt:P279* wd:Q27525351;
+        rdfs:label ?propLabel FILTER(lang(?propLabel) = 'en').
+  OPTIONAL { ?prop schema:description ?propDescription FILTER(lang(?propDescription) = 'en'). }
+  OPTIONAL { ?prop skos:altLabel ?propAlias FILTER(lang(?propAlias) = 'en'). }
+  OPTIONAL { ?prop wdt:P1628 ?equivalentProp. }
+  OPTIONAL { ?prop wdt:P1647 ?superProp. }
+}
+ORDER BY ?prop
