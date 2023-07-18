@@ -12,3 +12,12 @@ music-representation,https://w3id.org/polifonia/ontology/music-representation/
 organs,https://w3id.org/polifonia/ontology/organs/
 source,https://w3id.org/polifonia/ontology/source/
 tunes,https://w3id.org/polifonia/ontology/tunes/
+CLV.original,https://w3id.org/italia/onto/CLV
+COV.original,https://w3id.org/italia/onto/COV
+l0,https://w3id.org/italia/onto/l0
+MU.original,https://w3id.org/italia/onto/MU
+RO.original,https://w3id.org/italia/onto/RO
+SM.original,https://w3id.org/italia/onto/SM
+TI.original,https://w3id.org/italia/onto/TI
+POI.original,https://w3id.org/italia/onto/POI
+AccessCondition.original,https://w3id.org/italia/onto/AccessCondition

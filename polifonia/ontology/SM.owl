@@ -20,8 +20,8 @@
      xmlns:dcatapit="http://dati.gov.it/onto/dcatapit#">
     <owl:Ontology rdf:about="https://w3id.org/italia/onto/SM">
         <owl:versionIRI rdf:resource="https://w3id.org/italia/onto/SM/0.7"/>
-        <owl:imports rdf:resource="https://w3id.org/italia/onto/AccessCondition"/>
-        <owl:imports rdf:resource="https://w3id.org/italia/onto/POI"/>
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/Danysan1/unibo-ke-matching-ontologies/main/polifonia/ontology/AccessCondition.owl"/>
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/Danysan1/unibo-ke-matching-ontologies/main/polifonia/ontology/POI.owl"/>
         <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/IRREG"/>
         <dct:creator rdf:resource="http://spcdata.digitpa.gov.it/browse/page/Amministrazione/agid"/>
         <dct:creator rdf:resource="https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab"/>
