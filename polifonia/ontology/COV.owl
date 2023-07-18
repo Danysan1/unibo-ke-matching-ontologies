@@ -22,9 +22,9 @@
      xmlns:dcatapit="http://dati.gov.it/onto/dcatapit#">
     <owl:Ontology rdf:about="https://w3id.org/italia/onto/COV">
         <owl:versionIRI rdf:resource="https://w3id.org/italia/onto/COV/0.12"/>
-        <owl:imports rdf:resource="https://raw.githubusercontent.com/Danysan1/unibo-ke-matching-ontologies/main/wikidata/ontology/CLV.owl"/>
-        <owl:imports rdf:resource="https://raw.githubusercontent.com/Danysan1/unibo-ke-matching-ontologies/main/wikidata/ontology/RO.owl"/>
-        <owl:imports rdf:resource="https://raw.githubusercontent.com/Danysan1/unibo-ke-matching-ontologies/main/wikidata/ontology/SM.owl"/>
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/Danysan1/unibo-ke-matching-ontologies/main/polifonia/ontology/CLV.owl"/>
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/Danysan1/unibo-ke-matching-ontologies/main/polifonia/ontology/RO.owl"/>
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/Danysan1/unibo-ke-matching-ontologies/main/polifonia/ontology/SM.owl"/>
         <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/IRREG"/>
         <dct:creator rdf:resource="http://spcdata.digitpa.gov.it/Amministrazione/agid"/>
         <dct:creator rdf:resource="https://w3id.org/italia/data/organization/support-unit/cnr-Z6HZEH/stlab"/>

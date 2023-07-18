@@ -19,7 +19,7 @@
      xmlns:dcatapit="http://dati.gov.it/onto/dcatapit#">
     <owl:Ontology rdf:about="https://w3id.org/italia/onto/TI">
         <owl:versionIRI rdf:resource="https://w3id.org/italia/onto/TI/0.8"/>
-        <owl:imports rdf:resource="https://raw.githubusercontent.com/Danysan1/unibo-ke-matching-ontologies/main/wikidata/ontology/MU.owl"/>
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/Danysan1/unibo-ke-matching-ontologies/main/polifonia/ontology/MU.owl"/>
         <!--<owl:imports rdf:resource="https://w3id.org/italia/onto/l0"/>-->
         <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/IRREG"/>
         <dct:creator rdf:resource="http://spcdata.digitpa.gov.it/Amministrazione/agid"/>
