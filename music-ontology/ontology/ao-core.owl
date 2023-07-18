@@ -22,7 +22,7 @@ for describing specific associations to something, e.g. a context, an occasion, 
 like/rate and feedback these associations in context to something on/ for the Semantic Web. This document contains a RDF description 
 of the Association Ontology.</dc:description>
     <dc:title xml:lang="en">The Association Ontology</dc:title>
-    <owl:imports rdf:resource="http://purl.org/NET/c4dm/event.owl"/>
+    <owl:imports rdf:resource="https://raw.githubusercontent.com/Danysan1/unibo-ke-matching-ontologies/main/music-ontology/ontology/event.owl"/>
     <owl:imports rdf:resource="http://purl.org/dc/elements/1.1/"/>
     <owl:imports rdf:resource="http://purl.org/dc/terms/"/>
     <owl:imports rdf:resource="https://raw.githubusercontent.com/Danysan1/unibo-ke-matching-ontologies/main/music-ontology/ontology/musim.owl"/>
