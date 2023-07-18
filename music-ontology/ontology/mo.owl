@@ -38,12 +38,12 @@
     <dc:title>The Music Ontology</dc:title>
     <vann:preferredNamespacePrefix>mo</vann:preferredNamespacePrefix>
     <vann:preferredNamespaceUri>http://purl.org/ontology/mo/</vann:preferredNamespaceUri>
-    <owl:imports rdf:resource="../../NET/c4dm/event.owl"/>
-    <owl:imports rdf:resource="../../NET/c4dm/keys.owl"/>
+    <owl:imports rdf:resource="https://raw.githubusercontent.com/Danysan1/unibo-ke-matching-ontologies/main/music-ontology/ontology/event.owl"/>
+    <owl:imports rdf:resource="https://raw.githubusercontent.com/Danysan1/unibo-ke-matching-ontologies/main/music-ontology/ontology/keys.owl"/>
     <owl:imports rdf:resource="../../dc/terms/"/>
     <owl:imports rdf:resource="https://raw.githubusercontent.com/Danysan1/unibo-ke-matching-ontologies/main/music-ontology/ontology/ao-core.owl"/>
     <owl:imports rdf:resource="https://raw.githubusercontent.com/Danysan1/unibo-ke-matching-ontologies/main/music-ontology/ontology/bio.rdf"/>
-    <owl:imports rdf:resource="../../vocab/frbr/core"/>
+    <owl:imports rdf:resource="https://raw.githubusercontent.com/Danysan1/unibo-ke-matching-ontologies/main/music-ontology/ontology/frbr_core.owl"/>
     <owl:imports rdf:resource="http://www.w3.org/2006/time"/>
     <owl:imports rdf:resource="https://raw.githubusercontent.com/Danysan1/unibo-ke-matching-ontologies/main/music-ontology/ontology/foaf.rdf"/>
     <owl:versionInfo>Revision: 2.1.5</owl:versionInfo>
