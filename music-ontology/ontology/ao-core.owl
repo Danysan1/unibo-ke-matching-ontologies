@@ -24,7 +24,7 @@ of the Association Ontology.</dc:description>
     <dc:title xml:lang="en">The Association Ontology</dc:title>
     <owl:imports rdf:resource="https://raw.githubusercontent.com/Danysan1/unibo-ke-matching-ontologies/main/music-ontology/ontology/event.owl"/>
     <owl:imports rdf:resource="http://purl.org/dc/elements/1.1/"/>
-    <owl:imports rdf:resource="http://purl.org/dc/terms/"/>
+    <owl:imports rdf:resource="https://raw.githubusercontent.com/Danysan1/unibo-ke-matching-ontologies/main/music-ontology/ontology/dc-terms.owl"/>
     <owl:imports rdf:resource="https://raw.githubusercontent.com/Danysan1/unibo-ke-matching-ontologies/main/music-ontology/ontology/musim.owl"/>
     <owl:imports rdf:resource="http://purl.org/stuff/rev"/>
     <owl:imports rdf:resource="http://www.w3.org/2003/06/sw-vocab-status/ns"/>
