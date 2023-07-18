@@ -19,7 +19,7 @@
      xmlns:terms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="https://w3id.org/polifonia/ontology/music-meta">
         <owl:versionIRI rdf:resource="https://w3id.org/polifonia/ontology/music-meta/1.0/"/>
-        <owl:imports rdf:resource="https://raw.githubusercontent.com/Danysan1/unibo-ke-matching-ontologies/main/doremus/doremus.owl"/>
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/Danysan1/unibo-ke-matching-ontologies/main/doremus/doremus.ttl"/>
         <owl:imports rdf:resource="https://raw.githubusercontent.com/Danysan1/unibo-ke-matching-ontologies/main/music-ontology/ontology/mo.owl"/>
         <owl:imports rdf:resource="https://w3id.org/polifonia/ontology/core/0.1"/>
         <dc:creator xml:lang="en">Andrea Poltronieri</dc:creator>
