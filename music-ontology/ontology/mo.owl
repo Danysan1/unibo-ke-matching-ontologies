@@ -40,7 +40,7 @@
     <vann:preferredNamespaceUri>http://purl.org/ontology/mo/</vann:preferredNamespaceUri>
     <owl:imports rdf:resource="https://raw.githubusercontent.com/Danysan1/unibo-ke-matching-ontologies/main/music-ontology/ontology/event.owl"/>
     <owl:imports rdf:resource="https://raw.githubusercontent.com/Danysan1/unibo-ke-matching-ontologies/main/music-ontology/ontology/keys.owl"/>
-    <owl:imports rdf:resource="https://raw.githubusercontent.com/Danysan1/unibo-ke-matching-ontologies/main/music-ontology/ontology/dc-terms.owl"/>
+    <owl:imports rdf:resource="https://raw.githubusercontent.com/Danysan1/unibo-ke-matching-ontologies/main/music-ontology/ontology/dc-terms.rdf"/>
     <owl:imports rdf:resource="https://raw.githubusercontent.com/Danysan1/unibo-ke-matching-ontologies/main/music-ontology/ontology/ao-core.owl"/>
     <owl:imports rdf:resource="https://raw.githubusercontent.com/Danysan1/unibo-ke-matching-ontologies/main/music-ontology/ontology/bio.rdf"/>
     <owl:imports rdf:resource="https://raw.githubusercontent.com/Danysan1/unibo-ke-matching-ontologies/main/music-ontology/ontology/frbr_core.owl"/>
