@@ -23,6 +23,6 @@ music-meta.original.owl,https://w3id.org/polifonia/ontology/music-meta/
 music-projection.original.owl,https://w3id.org/polifonia/ontology/music-projection/
 music-representation.original.owl,https://w3id.org/polifonia/ontology/music-representation/
 organs.owl,https://w3id.org/polifonia/ontology/organs/
-source.owl,https://w3id.org/polifonia/ontology/source/
+source.original.owl,https://w3id.org/polifonia/ontology/source/
 tunes.original.ttl,https://w3id.org/polifonia/ontology/tunes/
 skos.owl,http://www.w3.org/2004/02/skos/core

@@ -13,7 +13,7 @@ rectangle "https://w3id.org/polifonia/ontology/" {
     [music-projection] as projection #line:red
     [music-representation] as representation #line:red
     [organs]
-    [source]
+    [source] #line:red
     [tunes] #line:red
     [jams] #line:red
     [algorithm-pattern] as pattern
@@ -29,7 +29,7 @@ rectangle "https://w3id.org/polifonia/ontology/" {
     network --> projection
     network --> representation
     network --> organs
-    network --> source
+    network -[#red,thickness=4]-> source: invalid file\nfixed
     network --> tunes
     jams --> projection
     jams --> representation
