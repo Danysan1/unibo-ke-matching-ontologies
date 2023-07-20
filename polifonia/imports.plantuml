@@ -21,7 +21,7 @@ rectangle "https://w3id.org/polifonia/ontology/" {
     network --> bells
     network --> cometa
     network --> core
-    network -[#red,thickness=4]-> instrument: broken
+    network -[#red,thickness=4]-> instrument: broken\nfixed
     network --> algorithm
     network --> analysis
     network --> annotation
@@ -35,9 +35,11 @@ rectangle "https://w3id.org/polifonia/ontology/" {
     jams --> representation
     meta --> core
     representation --> core
+    algorithm --> representation
+    projection --> representation
 
-    annotation -[#red,thickness=4]-> jams: broken
-    algorithm -[#red,thickness=4]-> pattern: broken
+    annotation -[#red,thickness=4]-> jams: broken\nfixed
+    algorithm -[#red,thickness=4]-> pattern: broken\nfixed
 }
 
 rectangle "http://purl.org/ontology/" {
@@ -72,18 +74,18 @@ rectangle "https://w3id.org/italia/onto/" {
 
     AccessCondition -[#red]-> l0
     AccessCondition -[#red]-> TI
-    TI -[#red,dashed]-> l0 : removed
+    TI -[#red,dashed]-> l0 : duplicate\nremoved
     TI -[#red]-> MU
     COV --> CLV
-    COV -[#red,dashed]-> MU: removed
+    COV -[#red,dashed]-> MU: duplicate\nremoved
     COV --> RO
     COV --> SM
-    COV -[#red,dashed]-> TI: removed
-    COV -[#red,dashed]-> l0: removed
-    CLV -[#red,dashed]-> l0: removed
+    COV -[#red,dashed]-> TI: duplicate\nremoved
+    COV -[#red,dashed]-> l0: duplicate\nremoved
+    CLV -[#red,dashed]-> l0: duplicate\nremoved
     SM --> AccessCondition
     SM --> POI
-    SM -[#red,dashed]-> l0: removed
+    SM -[#red,dashed]-> l0: duplicate\nremoved
 }
 
 rectangle "http://purl.org/NET/c4dm/" {
@@ -95,18 +97,18 @@ rectangle "http://purl.org/NET/c4dm/" {
 
 [http://www.w3.org/2004/02/skos/core] as skos
 
-meta -[#red,thickness=4]---> doremus: broken
-ao_core -[#red,thickness=4]---> musim: broken
+meta -[#red,thickness=4]---> doremus: broken\nfixed
+ao_core -[#red,thickness=4]---> musim: broken\nfixed
 
-meta ----> mo
-bells ----> arco
-campaign ----> COV
+meta ---> mo
+bells ---> arco
+campaign ---> COV
 
-ao_core -[#red,thickness=4]-> event: sometimes broken
-mo -[#red,thickness=4]-> event: sometimes broken
-mo -[#red,thickness=4]-> keys: sometimes broken
+ao_core -[#red,thickness=4]--> event: sometimes broken\nfixed
+mo -[#red,thickness=4]--> event: sometimes broken\nfixed
+mo -[#red,thickness=4]--> keys: sometimes broken\nfixed
 
-doremus -[#red]-> skos
-representation -[#red,dashed]-> skos: removed
+doremus -[#red]--> skos
+representation -[#red,dashed]--> skos: duplicate\nremoved
 
 @enduml

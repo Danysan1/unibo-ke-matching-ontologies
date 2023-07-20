@@ -16,7 +16,7 @@
                                                                      <https://w3id.org/polifonia/ontology/music-analysis/> ,
                                                                      <https://raw.githubusercontent.com/Danysan1/unibo-ke-matching-ontologies/main/polifonia/ontology/music-annotation.ttl> ,
                                                                      <https://raw.githubusercontent.com/Danysan1/unibo-ke-matching-ontologies/main/polifonia/ontology/music-meta.owl> ,
-                                                                     <https://w3id.org/polifonia/ontology/music-projection/> ,
+                                                                     <https://raw.githubusercontent.com/Danysan1/unibo-ke-matching-ontologies/main/polifonia/ontology/music-projection.owl> ,
                                                                      <https://w3id.org/polifonia/ontology/music-representation/> ,
                                                                      <https://w3id.org/polifonia/ontology/organs/> ,
                                                                      <https://w3id.org/polifonia/ontology/source/> ,

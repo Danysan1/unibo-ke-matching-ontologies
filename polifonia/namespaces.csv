@@ -20,7 +20,7 @@ music-algorithm.original.owl,https://w3id.org/polifonia/ontology/music-algorithm
 music-analysis.owl,https://w3id.org/polifonia/ontology/music-analysis/
 music-annotation.original.ttl,https://w3id.org/polifonia/ontology/music-annotation/
 music-meta.original.owl,https://w3id.org/polifonia/ontology/music-meta/
-music-projection.owl,https://w3id.org/polifonia/ontology/music-projection/
+music-projection.original.owl,https://w3id.org/polifonia/ontology/music-projection/
 music-representation.original.owl,https://w3id.org/polifonia/ontology/music-representation/
 organs.owl,https://w3id.org/polifonia/ontology/organs/
 source.owl,https://w3id.org/polifonia/ontology/source/

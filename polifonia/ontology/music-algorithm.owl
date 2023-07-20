@@ -16,7 +16,7 @@
      xmlns:cpannotationschema="http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#">
     <owl:Ontology rdf:about="https://w3id.org/polifonia/ontology/music-algorithm/">
         <owl:imports rdf:resource="https://raw.githubusercontent.com/Danysan1/unibo-ke-matching-ontologies/main/polifonia/ontology/algorithm-pattern.owl"/>
-        <owl:imports rdf:resource="https://w3id.org/polifonia/ontology/music-representation/"/>
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/Danysan1/unibo-ke-matching-ontologies/main/polifonia/ontology/music-representation.owl"/>
     </owl:Ontology>
     
 
