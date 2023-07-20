@@ -18,8 +18,8 @@
 
 <http://w3id.org/polifonia/ontology/jams/> rdf:type owl:Ontology ;
                                             owl:versionIRI <http://w3id.org/polifonia/ontology/jams/1.0/> ;
-                                            owl:imports mp: ,
-                                                        mr: ;
+                                            owl:imports <https://raw.githubusercontent.com/Danysan1/unibo-ke-matching-ontologies/main/polifonia/ontology/music-projection.ttl> ,
+                                                        <https://raw.githubusercontent.com/Danysan1/unibo-ke-matching-ontologies/main/polifonia/ontology/music-representation.ttl> ;
                                             dc:creator "Albert Merono Penuela"@en ,
                                                        "Andrea Poltronieri"@en ,
                                                        "Jacpo de Berardinis" ,

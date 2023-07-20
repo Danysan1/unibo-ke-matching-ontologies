@@ -1,4 +1,4 @@
-jams.ttl,https://raw.githubusercontent.com/polifonia-project/jams-ontology/main/ontology/jams.ttl
+jams.original.ttl,https://raw.githubusercontent.com/polifonia-project/jams-ontology/main/ontology/jams.ttl
 algorithm-pattern.owl,https://raw.githubusercontent.com/polifonia-project/music-algorithm-ontology/main/ontology/algorithm-odp.owl
 arco.original.owl,https://w3id.org/arco/ontology/arco/1.2
 cataloguing-campaign.original.owl,https://w3id.org/arco/ontology/cataloguing-campaign/0.1
@@ -15,7 +15,7 @@ ontology-network.original.ttl,https://w3id.org/polifonia/ontology/ontology-netwo
 bells.original.owl,https://w3id.org/polifonia/ontology/bells/
 cometa.original.owl,https://w3id.org/polifonia/ontology/cometa/
 core.owl,https://w3id.org/polifonia/ontology/core/
-music-instrument.owl,https://w3id.org/polifonia/ontology/music-instrument/
+music-instrument.original.owl,https://w3id.org/polifonia/ontology/music-instrument/
 music-algorithm.original.owl,https://w3id.org/polifonia/ontology/music-algorithm/
 music-analysis.owl,https://w3id.org/polifonia/ontology/music-analysis/
 music-annotation.original.ttl,https://w3id.org/polifonia/ontology/music-annotation/
@@ -24,4 +24,4 @@ music-projection.original.owl,https://w3id.org/polifonia/ontology/music-projecti
 music-representation.original.owl,https://w3id.org/polifonia/ontology/music-representation/
 organs.owl,https://w3id.org/polifonia/ontology/organs/
 source.owl,https://w3id.org/polifonia/ontology/source/
-tunes.ttl,https://w3id.org/polifonia/ontology/tunes/
+tunes.original.ttl,https://w3id.org/polifonia/ontology/tunes/

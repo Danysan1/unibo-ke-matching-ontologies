@@ -1,4 +1,4 @@
-@startuml polifonia-ontology-imports
+@startuml owl-imports-graph
 
 rectangle "https://w3id.org/polifonia/ontology/" {
     [ontology-network] as network
@@ -37,6 +37,9 @@ rectangle "https://w3id.org/polifonia/ontology/" {
     representation --> core
     algorithm --> representation
     projection --> representation
+    instrument --> meta
+    instrument --> core
+    tunes --> meta
 
     annotation -[#red,thickness=4]-> jams: broken\nfixed
     algorithm -[#red,thickness=4]-> pattern: broken\nfixed
@@ -93,12 +96,19 @@ rectangle "http://purl.org/NET/c4dm/" {
     [keys]
 }
 
+[http://xmlns.com/foaf/0.1/] as foaf
+
+[http://purl.org/dc/terms/] as terms
+
 [http://data.doremus.org/ontology#] as doremus
 
 [http://www.w3.org/2004/02/skos/core] as skos
 
 meta -[#red,thickness=4]---> doremus: broken\nfixed
 ao_core -[#red,thickness=4]---> musim: broken\nfixed
+ao_core -[#red,thickness=4]---> terms: broken\nfixed
+mo -[#red,thickness=4]---> foaf: broken\nfixed
+ao_core -[#red,thickness=4]---> foaf: broken\nfixed
 
 meta ---> mo
 bells ---> arco

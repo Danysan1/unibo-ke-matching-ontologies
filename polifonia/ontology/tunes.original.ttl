@@ -10,7 +10,7 @@
 
 <https://w3id.org/polifonia/ontology/tunes/> rdf:type owl:Ontology ;
                                               owl:versionIRI <https://w3id.org/polifonia/ontology/tunes/1.0/> ;
-                                              owl:imports <https://raw.githubusercontent.com/Danysan1/unibo-ke-matching-ontologies/main/polifonia/ontology/music-meta.owl> ;
+                                              owl:imports <https://w3id.org/polifonia/ontology/music-meta/1.0/> ;
                                               <http://purl.org/dc/elements/1.1/creator> "Andrea Poltronieri (UniBo)"@en ,
                                                                                         "Jacopo de Berardinis (KCL)"@en ,
                                                                                         "Nicolas Lazzari (UniBo)"@en ,
