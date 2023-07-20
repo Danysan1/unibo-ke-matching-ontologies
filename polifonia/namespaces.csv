@@ -25,3 +25,4 @@ music-representation.original.owl,https://w3id.org/polifonia/ontology/music-repr
 organs.owl,https://w3id.org/polifonia/ontology/organs/
 source.owl,https://w3id.org/polifonia/ontology/source/
 tunes.original.ttl,https://w3id.org/polifonia/ontology/tunes/
+skos.owl,http://www.w3.org/2004/02/skos/core
