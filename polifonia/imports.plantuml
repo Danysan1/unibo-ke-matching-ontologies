@@ -21,7 +21,7 @@ rectangle "https://w3id.org/polifonia/ontology/" {
     network --> bells
     network --> cometa
     network --> core
-    network -[#red,thickness=6]-> instrument: broken link
+    network -[#red,thickness=4]-> instrument: broken
     network --> algorithm
     network --> analysis
     network --> annotation
@@ -34,9 +34,18 @@ rectangle "https://w3id.org/polifonia/ontology/" {
     jams --> projection
     jams --> representation
     meta --> core
+    representation --> core
 
-    annotation -[#red,thickness=6]-> jams: broken link
-    algorithm -[#red,thickness=6]-> pattern: broken link
+    annotation -[#red,thickness=4]-> jams: broken
+    algorithm -[#red,thickness=4]-> pattern: broken
+}
+
+rectangle "http://purl.org/ontology/" {
+    [mo]
+    [ao/core] as ao_core
+    [similarity] as musim
+
+    mo --> ao_core
 }
 
 rectangle "https://w3id.org/arco/ontology/" {
@@ -63,25 +72,18 @@ rectangle "https://w3id.org/italia/onto/" {
 
     AccessCondition -[#red]-> l0
     AccessCondition -[#red]-> TI
-    TI -[#red]-> l0
+    TI -[#red,dashed]-> l0 : removed
+    TI -[#red]-> MU
     COV --> CLV
-    COV --> MU
+    COV -[#red,dashed]-> MU: removed
     COV --> RO
     COV --> SM
-    COV -[#red]-> TI
-    COV -[#red]-> l0
-    CLV -[#red]-> l0
+    COV -[#red,dashed]-> TI: removed
+    COV -[#red,dashed]-> l0: removed
+    CLV -[#red,dashed]-> l0: removed
     SM --> AccessCondition
     SM --> POI
-    SM -[#red]-> l0
-}
-
-rectangle "http://purl.org/ontology/" {
-    [mo]
-    [ao/core] as ao_core
-    [similarity] as musim
-
-    mo --> ao_core
+    SM -[#red,dashed]-> l0: removed
 }
 
 rectangle "http://purl.org/NET/c4dm/" {
@@ -91,15 +93,20 @@ rectangle "http://purl.org/NET/c4dm/" {
 
 [http://data.doremus.org/ontology#] as doremus
 
-meta -[#red,thickness=6]---> doremus: broken link
-ao_core -[#red,thickness=6]---> musim: broken link
+[http://www.w3.org/2004/02/skos/core] as skos
+
+meta -[#red,thickness=4]---> doremus: broken
+ao_core -[#red,thickness=4]---> musim: broken
 
 meta ----> mo
 bells ----> arco
 campaign ----> COV
 
-ao_core -[#red,dashed,thickness=6]--> event: sometimes broken
-mo -[#red,dashed,thickness=6]--> event: sometimes broken
-mo -[#red,dashed,thickness=6]--> keys: sometimes broken
+ao_core -[#red,thickness=4]-> event: sometimes broken
+mo -[#red,thickness=4]-> event: sometimes broken
+mo -[#red,thickness=4]-> keys: sometimes broken
+
+doremus -[#red]-> skos
+representation -[#red,dashed]-> skos: removed
 
 @enduml

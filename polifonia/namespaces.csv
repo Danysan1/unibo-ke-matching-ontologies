@@ -6,7 +6,7 @@ AccessCondition.original.owl,https://w3id.org/italia/onto/AccessCondition
 CLV.original.owl,https://w3id.org/italia/onto/CLV
 COV.original.owl,https://w3id.org/italia/onto/COV
 l0.owl,https://w3id.org/italia/onto/l0
-MU.original.owl,https://w3id.org/italia/onto/MU
+MU.owl,https://w3id.org/italia/onto/MU
 POI.original.owl,https://w3id.org/italia/onto/POI
 RO.original.owl,https://w3id.org/italia/onto/RO
 SM.original.owl,https://w3id.org/italia/onto/SM
@@ -21,7 +21,7 @@ music-analysis.owl,https://w3id.org/polifonia/ontology/music-analysis/
 music-annotation.original.ttl,https://w3id.org/polifonia/ontology/music-annotation/
 music-meta.original.owl,https://w3id.org/polifonia/ontology/music-meta/
 music-projection.owl,https://w3id.org/polifonia/ontology/music-projection/
-music-representation.owl,https://w3id.org/polifonia/ontology/music-representation/
+music-representation.original.owl,https://w3id.org/polifonia/ontology/music-representation/
 organs.owl,https://w3id.org/polifonia/ontology/organs/
 source.owl,https://w3id.org/polifonia/ontology/source/
 tunes.ttl,https://w3id.org/polifonia/ontology/tunes/
