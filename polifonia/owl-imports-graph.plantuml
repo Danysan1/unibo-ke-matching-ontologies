@@ -104,28 +104,29 @@ rectangle "http://purl.org/NET/c4dm/" {
 }
 
 [http://xmlns.com/foaf/0.1/] as foaf
-
 [http://purl.org/dc/terms/] as terms
-
 [http://data.doremus.org/ontology#] as doremus #line:red
-
 [http://www.w3.org/2004/02/skos/core] as skos
+[http://purl.org/vocab/bio/0.1/] as bio
 
-meta -[#red,thickness=4]---> doremus: broken\nfixed
-ao_core -[#red,thickness=4]---> musim: broken\nfixed
-ao_core -[#red,thickness=4]---> terms: broken\nfixed
-mo -[#red,thickness=4]---> foaf: broken\nfixed
+meta -[#red,thickness=4]-----> doremus: broken\nfixed
+
+ao_core -[#red,thickness=4]--> musim: broken\nfixed
+ao_core -[#red,thickness=4]--> terms: broken\nfixed
+mo -[#red,thickness=4]--> terms: broken\nfixed
+mo -[#red,thickness=4]--> foaf: broken\nfixed
 ao_core -[#red,thickness=4]---> foaf: broken\nfixed
 
-meta ---> mo
-bells ---> arco
-campaign ---> COV
+meta -----> mo
+bells ----> arco
+campaign --> COV
 
 ao_core -[#red,thickness=4]--> event: sometimes broken\nfixed
 mo -[#red,thickness=4]--> event: sometimes broken\nfixed
 mo -[#red,thickness=4]--> keys: sometimes broken\nfixed
+mo -[#red,thickness=4]--> bio: sometimes broken\nfixed
 
-doremus -[#red]--> skos
-representation -[#red,dashed]--> skos: duplicate\nremoved
+doremus -[#red,dashed]-> skos: duplicate\nremoved
+representation -[#red,dashed]-> skos: duplicate\nremoved
 
 @enduml

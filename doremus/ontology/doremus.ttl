@@ -14,8 +14,7 @@
 @base <http://data.doremus.org/ontology#> .
 
 <http://data.doremus.org/ontology#> rdf:type owl:Ontology ;
-                                     owl:imports efrbroo: ,
-                                                 <http://www.w3.org/2004/02/skos/core> ;
+                                     owl:imports efrbroo: ;
                                      vann:preferredNamespaceUri "http://data.doremus.org/ontology#" ;
                                      dct:issued "2016-05-02"^^xsd:date ;
                                      owl:versionInfo """v0.2 05/06/2017 - starting enrichemnent for Manifestations - change in of type of several properties controlled by controlled vocabularies
