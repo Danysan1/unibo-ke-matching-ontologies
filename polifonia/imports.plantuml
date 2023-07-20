@@ -21,7 +21,7 @@ rectangle "https://w3id.org/polifonia/ontology/" {
     network --> bells
     network --> cometa
     network --> core
-    network -[#red,thickness=6]-> instrument
+    network -[#red,thickness=6]-> instrument: broken link
     network --> algorithm
     network --> analysis
     network --> annotation
@@ -31,9 +31,12 @@ rectangle "https://w3id.org/polifonia/ontology/" {
     network --> organs
     network --> source
     network --> tunes
+    jams --> projection
+    jams --> representation
+    meta --> core
 
-    annotation -[#red,thickness=6]-> jams: rotto
-    algorithm -[#red,thickness=6]-> pattern: rotto
+    annotation -[#red,thickness=6]-> jams: broken link
+    algorithm -[#red,thickness=6]-> pattern: broken link
 }
 
 rectangle "https://w3id.org/arco/ontology/" {
@@ -56,6 +59,7 @@ rectangle "https://w3id.org/italia/onto/" {
     [SM]
     [TI]
     [l0]
+    [POI]
 
     AccessCondition -[#red]-> l0
     AccessCondition -[#red]-> TI
@@ -67,6 +71,9 @@ rectangle "https://w3id.org/italia/onto/" {
     COV -[#red]-> TI
     COV -[#red]-> l0
     CLV -[#red]-> l0
+    SM --> AccessCondition
+    SM --> POI
+    SM -[#red]-> l0
 }
 
 rectangle "http://purl.org/ontology/" {
@@ -77,13 +84,22 @@ rectangle "http://purl.org/ontology/" {
     mo --> ao_core
 }
 
+rectangle "http://purl.org/NET/c4dm/" {
+    [event]
+    [keys]
+}
+
 [http://data.doremus.org/ontology#] as doremus
 
-meta -[#red,thickness=6]--> doremus
-ao_core -[#red,thickness=6]--> musim
+meta -[#red,thickness=6]---> doremus: broken link
+ao_core -[#red,thickness=6]---> musim: broken link
 
-meta ---> mo
-bells ---> arco
-campaign ---> COV
+meta ----> mo
+bells ----> arco
+campaign ----> COV
+
+ao_core -[#red,dashed,thickness=6]--> event: sometimes broken
+mo -[#red,dashed,thickness=6]--> event: sometimes broken
+mo -[#red,dashed,thickness=6]--> keys: sometimes broken
 
 @enduml
