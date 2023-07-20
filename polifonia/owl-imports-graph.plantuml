@@ -1,21 +1,21 @@
 @startuml owl-imports-graph
 
 rectangle "https://w3id.org/polifonia/ontology/" {
-    [ontology-network] as network
-    [bells]
-    [cometa]
+    [ontology-network] as network #line:red
+    [bells] #line:red
+    [cometa] #line:red
     [core]
-    [music-instrument] as instrument
-    [music-algorithm] as algorithm
-    [music-annotation] as annotation
+    [music-instrument] as instrument #line:red
+    [music-algorithm] as algorithm #line:red
+    [music-annotation] as annotation #line:red
     [music-analysis] as analysis
-    [music-meta] as meta
-    [music-projection] as projection
-    [music-representation] as representation
+    [music-meta] as meta #line:red
+    [music-projection] as projection #line:red
+    [music-representation] as representation #line:red
     [organs]
     [source]
-    [tunes]
-    [jams]
+    [tunes] #line:red
+    [jams] #line:red
     [algorithm-pattern] as pattern
 
     network --> bells
@@ -40,22 +40,23 @@ rectangle "https://w3id.org/polifonia/ontology/" {
     instrument --> meta
     instrument --> core
     tunes --> meta
+    cometa --> meta
 
     annotation -[#red,thickness=4]-> jams: broken\nfixed
     algorithm -[#red,thickness=4]-> pattern: broken\nfixed
 }
 
 rectangle "http://purl.org/ontology/" {
-    [mo]
-    [ao/core] as ao_core
+    [mo] #line:red
+    [ao/core] as ao_core #line:red
     [similarity] as musim
 
     mo --> ao_core
 }
 
 rectangle "https://w3id.org/arco/ontology/" {
-    [arco]
-    [cataloguing-campaign] as campaign
+    [arco] #line:red
+    [cataloguing-campaign] as campaign #line:red
     [catalogue]
     [context-description] as description
 
@@ -65,15 +66,15 @@ rectangle "https://w3id.org/arco/ontology/" {
 }
 
 rectangle "https://w3id.org/italia/onto/" {
-    [AccessCondition]
-    [CLV]
-    [COV]
+    [AccessCondition] #line:red
+    [CLV] #line:red
+    [COV] #line:red
     [MU]
-    [RO]
-    [SM]
-    [TI]
+    [RO] #line:red
+    [SM] #line:red
+    [TI] #line:red
     [l0]
-    [POI]
+    [POI] #line:red
 
     AccessCondition -[#red]-> l0
     AccessCondition -[#red]-> TI
@@ -89,6 +90,12 @@ rectangle "https://w3id.org/italia/onto/" {
     SM --> AccessCondition
     SM --> POI
     SM -[#red,dashed]-> l0: duplicate\nremoved
+    POI -[#red,dashed]-> CLV: duplicate\nremoved
+    POI -[#red,dashed]-> SM: duplicate\nremoved
+    POI -[#red,dashed]-> l0: duplicate\nremoved
+    POI -[#red,dashed]-> TI: duplicate\nremoved
+    RO -[#red,dashed]-> l0: duplicate\nremoved
+    RO -[#red,dashed]-> TI: duplicate\nremoved
 }
 
 rectangle "http://purl.org/NET/c4dm/" {
@@ -100,7 +107,7 @@ rectangle "http://purl.org/NET/c4dm/" {
 
 [http://purl.org/dc/terms/] as terms
 
-[http://data.doremus.org/ontology#] as doremus
+[http://data.doremus.org/ontology#] as doremus #line:red
 
 [http://www.w3.org/2004/02/skos/core] as skos
 
