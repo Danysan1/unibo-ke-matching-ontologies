@@ -3,14 +3,14 @@
      xml:base="https://w3id.org/polifonia/ontology/source/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:src="https://w3id.org/polifonia/ontology/source/0.0.1#"
+     xmlns:src="https://w3id.org/polifonia/ontology/source/"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:core="https://w3id.org/polifonia/ON/core/0.0.1#"
+     xmlns:core="https://w3id.org/polifonia/ontology/core/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="https://w3id.org/polifonia/ontology/source/">
         <owl:versionIRI rdf:resource="https://w3id.org/polifonia/ontology/source/0.0.1"/>
-        <owl:imports rdf:resource="https://w3id.org/polifonia/ON/core/0.0.1"/>
+        <owl:imports rdf:resource="https://w3id.org/polifonia/ontology/core/0.1"/>
         <rdfs:comment xml:lang="en">This is the ontology Source of the Polifonia ontology network.</rdfs:comment>
         <rdfs:label xml:lang="en">Source ontology (Polifonia ontology network)</rdfs:label>
     </owl:Ontology>
@@ -232,48 +232,48 @@
     <owl:Class rdf:about="http://w3id.org/polifonia/ontology/source/Source">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ON/core/hasPart"/>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/hasPart"/>
                 <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/source/Fragment"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ON/core/hasPlace"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ON/core/Place"/>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/hasPlace"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/core/Place"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ON/core/hasTimeInterval"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ON/core/TimeInterval"/>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/hasTimeInterval"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/core/TimeInterval"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ON/core/hasAgent"/>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/hasAgent"/>
                 <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
-                <owl:onClass rdf:resource="https://w3id.org/polifonia/ON/core/Agent"/>
+                <owl:onClass rdf:resource="https://w3id.org/polifonia/ontology/core/Agent"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ON/core/hasAgentRole"/>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/hasAgentRole"/>
                 <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
-                <owl:onClass rdf:resource="https://w3id.org/polifonia/ON/core/AgentRole"/>
+                <owl:onClass rdf:resource="https://w3id.org/polifonia/ontology/core/AgentRole"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ON/core/hasRole"/>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/hasRole"/>
                 <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
-                <owl:onClass rdf:resource="https://w3id.org/polifonia/ON/core/Role"/>
+                <owl:onClass rdf:resource="https://w3id.org/polifonia/ontology/core/Role"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ON/core/hasType"/>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/hasType"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="https://w3id.org/polifonia/ON/core/Type"/>
+                <owl:onClass rdf:resource="https://w3id.org/polifonia/ontology/core/Type"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Source</rdfs:label>
