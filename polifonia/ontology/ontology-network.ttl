@@ -19,7 +19,7 @@
                                                                      <https://raw.githubusercontent.com/Danysan1/unibo-ke-matching-ontologies/main/polifonia/ontology/music-projection.owl> ,
                                                                      <https://raw.githubusercontent.com/Danysan1/unibo-ke-matching-ontologies/main/polifonia/ontology/music-representation.owl> ,
                                                                      <https://w3id.org/polifonia/ontology/organs/> ,
-                                                                     <https://w3id.org/polifonia/ontology/source/> ,
+                                                                     <https://raw.githubusercontent.com/Danysan1/unibo-ke-matching-ontologies/main/polifonia/ontology/source.owl> ,
                                                                      <https://w3id.org/polifonia/ontology/tunes/> ;
                                                          <http://purl.org/dc/elements/1.1/creator> "Andrea Poltronieri"@en ,
                                                                                                    "Jacopo de Berardinis"@en ,
