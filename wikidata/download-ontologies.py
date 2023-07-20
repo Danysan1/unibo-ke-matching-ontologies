@@ -37,12 +37,20 @@ download_rdf_from_sparql(class_base_path)
 
 print(f'Adding owl:ontology to ontology...')
 register_xml_namespaces_from_file(class_base_path+'.rdf')
+default_namespace = 'http://www.wikidata.org/entity/'
+ET.register_namespace("base", default_namespace)
 output_xml_tree = ET.parse(class_base_path+'.rdf')
 output_xml_root = output_xml_tree.getroot()
-output_xml_root.insert(0, ET.Element('{http://www.w3.org/2002/07/owl#}Ontology', {
+
+ontology_element = ET.Element('{http://www.w3.org/2002/07/owl#}Ontology', {
     '{http://www.w3.org/1999/02/22-rdf-syntax-ns#}about': 'http://www.wikidata.org/',
     '{http://purl.org/dc/elements/1.1/}description': 'OWL export of Wikidata classes related to music'
-}))
+})
+ET.SubElement(ontology_element, '{http://www.w3.org/2004/02/skos/core#}example', {
+    '{http://www.w3.org/1999/02/22-rdf-syntax-ns#}resource': "http://www.wikidata.org/entity/Q1"
+})
+output_xml_root.insert(0, ontology_element)
+ET.indent(ontology_element)
 
 for base_name in ['musicDataProperties', 'musicObjectProperties']:
     base_path = os.path.join(script_directory, base_name)
@@ -57,5 +65,7 @@ for base_name in ['musicDataProperties', 'musicObjectProperties']:
 
 output_xml_tree.write(
     os.path.join(script_directory, 'ontology', 'music.owl'),
-    default_namespace="http://www.wikidata.org/"
+    default_namespace = default_namespace,
+    xml_declaration=True,
+    encoding='utf-8'
 )
