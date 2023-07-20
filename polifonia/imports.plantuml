@@ -1,0 +1,89 @@
+@startuml polifonia-ontology-imports
+
+rectangle "https://w3id.org/polifonia/ontology/" {
+    [ontology-network] as network
+    [bells]
+    [cometa]
+    [core]
+    [music-instrument] as instrument
+    [music-algorithm] as algorithm
+    [music-annotation] as annotation
+    [music-analysis] as analysis
+    [music-meta] as meta
+    [music-projection] as projection
+    [music-representation] as representation
+    [organs]
+    [source]
+    [tunes]
+    [jams]
+    [algorithm-pattern] as pattern
+
+    network --> bells
+    network --> cometa
+    network --> core
+    network -[#red,thickness=6]-> instrument
+    network --> algorithm
+    network --> analysis
+    network --> annotation
+    network --> meta
+    network --> projection
+    network --> representation
+    network --> organs
+    network --> source
+    network --> tunes
+
+    annotation -[#red,thickness=6]-> jams: rotto
+    algorithm -[#red,thickness=6]-> pattern: rotto
+}
+
+rectangle "https://w3id.org/arco/ontology/" {
+    [arco]
+    [cataloguing-campaign] as campaign
+    [catalogue]
+    [context-description] as description
+
+    arco --> catalogue
+    arco --> campaign
+    arco --> description
+}
+
+rectangle "https://w3id.org/italia/onto/" {
+    [AccessCondition]
+    [CLV]
+    [COV]
+    [MU]
+    [RO]
+    [SM]
+    [TI]
+    [l0]
+
+    AccessCondition -[#red]-> l0
+    AccessCondition -[#red]-> TI
+    TI -[#red]-> l0
+    COV --> CLV
+    COV --> MU
+    COV --> RO
+    COV --> SM
+    COV -[#red]-> TI
+    COV -[#red]-> l0
+    CLV -[#red]-> l0
+}
+
+rectangle "http://purl.org/ontology/" {
+    [mo]
+    [ao/core] as ao_core
+    [similarity] as musim
+
+    mo --> ao_core
+}
+
+[http://data.doremus.org/ontology#] as doremus
+
+meta -[#red,thickness=6]--> doremus
+ao_core -[#red,thickness=6]--> musim
+
+meta ---> mo
+bells ---> arco
+campaign ---> COV
+
+@enduml
