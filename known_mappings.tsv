@@ -15,3 +15,14 @@ https://w3id.org/polifonia/ontology/core/Place	http://www.wikidata.org/entity/Q5
 https://w3id.org/polifonia/ontology/core/SpatialObject	http://www.wikidata.org/entity/Q2221906	1.0
 https://w3id.org/polifonia/ontology/core/GeographicalFeature	http://www.wikidata.org/entity/Q618123	1.0
 https://w3id.org/polifonia/ontology/core/Address	http://www.wikidata.org/entity/Q319608	1.0
+https://w3id.org/polifonia/ontology/core/Person	http://www.wikidata.org/entity/Q5	1.0
+https://w3id.org/polifonia/ontology/core/Agent	http://www.wikidata.org/entity/Q24229398	1.0
+https://w3id.org/polifonia/ontology/core/Collection	http://www.wikidata.org/entity/Q2668072	1.0
+https://w3id.org/polifonia/ontology/core/Country	http://www.wikidata.org/entity/Q6256	1.0
+https://w3id.org/polifonia/ontology/core/Event	http://www.wikidata.org/entity/Q1190554	1.0
+https://w3id.org/polifonia/ontology/core/Language	http://www.wikidata.org/entity/Q34770	1.0
+https://w3id.org/polifonia/ontology/core/Name	https://www.wikidata.org/entity/Q82799	1.0
+https://w3id.org/polifonia/ontology/core/Organization	http://www.wikidata.org/entity/Q43229	1.0
+https://w3id.org/polifonia/ontology/core/Province	http://www.wikidata.org/entity/Q34876	1.0
+https://w3id.org/polifonia/ontology/core/Region	http://www.wikidata.org/entity/Q1414991	1.0
+https://w3id.org/polifonia/ontology/core/TimeInterval	http://www.wikidata.org/entity/Q186081	1.0

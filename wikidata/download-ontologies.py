@@ -43,9 +43,10 @@ output_xml_tree = ET.parse(class_base_path+'.rdf')
 output_xml_root = output_xml_tree.getroot()
 
 ontology_element = ET.Element('{http://www.w3.org/2002/07/owl#}Ontology', {
-    '{http://www.w3.org/1999/02/22-rdf-syntax-ns#}about': 'http://www.wikidata.org/',
-    '{http://purl.org/dc/elements/1.1/}description': 'OWL export of Wikidata classes related to music'
+    '{http://www.w3.org/1999/02/22-rdf-syntax-ns#}about': default_namespace,
 })
+ET.SubElement(ontology_element, '{http://www.w3.org/2000/01/rdf-schema#}label').text = 'Wikidata music ontology'
+ET.SubElement(ontology_element, '{http://www.w3.org/2000/01/rdf-schema#}description').text = 'OWL export of Wikidata classes related to music'
 ET.SubElement(ontology_element, '{http://www.w3.org/2004/02/skos/core#}example', {
     '{http://www.w3.org/1999/02/22-rdf-syntax-ns#}resource': "http://www.wikidata.org/entity/Q1"
 })
