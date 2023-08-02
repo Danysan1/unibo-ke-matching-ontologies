@@ -12,8 +12,8 @@ rectangle "https://w3id.org/polifonia/ontology/" {
     [music-meta] as meta #line:red
     [music-projection] as projection #line:red
     [music-representation] as representation #line:red
-    [organs]
-    [source] #line:red
+    [organs] #line:red
+    [source]
     [tunes] #line:red
     [jams] #line:red
     [algorithm-pattern] as pattern
@@ -28,8 +28,8 @@ rectangle "https://w3id.org/polifonia/ontology/" {
     network --> meta
     network --> projection
     network --> representation
-    network --> organs
-    network -[#red,thickness=4]-> source: invalid file\nfixed
+    network -[#red,thickness=4]-> organs: invalid file\nfixed
+    network --> source
     network --> tunes
     jams --> projection
     jams --> representation
@@ -41,6 +41,7 @@ rectangle "https://w3id.org/polifonia/ontology/" {
     instrument --> core
     tunes --> meta
     cometa --> meta
+    source --> core
 
     annotation -[#red,thickness=4]-> jams: broken\nfixed
     algorithm -[#red,thickness=4]-> pattern: broken\nfixed

@@ -1,18 +1,33 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="https://w3id.org/polifonia/ontology/source/"
      xml:base="https://w3id.org/polifonia/ontology/source/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:src="https://w3id.org/polifonia/ontology/source/"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:core="https://w3id.org/polifonia/ontology/core/"
+     xmlns:core="https://w3id.org/polifonia/ontology/core/1.0/"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:cc="http://creativecommons.org/ns#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="https://w3id.org/polifonia/ontology/source/">
-        <owl:versionIRI rdf:resource="https://w3id.org/polifonia/ontology/source/0.0.1"/>
-        <owl:imports rdf:resource="https://w3id.org/polifonia/ontology/core/0.1"/>
-        <rdfs:comment xml:lang="en">This is the ontology Source of the Polifonia ontology network.</rdfs:comment>
-        <rdfs:label xml:lang="en">Source ontology (Polifonia ontology network)</rdfs:label>
+        <owl:versionIRI rdf:resource="https://w3id.org/polifonia/ontology/source/1.0/"/>
+        <owl:imports rdf:resource="https://w3id.org/polifonia/ontology/core/1.0"/>
+        <rdfs:comment xml:lang="en">The Source ontology module addresses concepts and relationships for representing sources of (music-related) information.</rdfs:comment>
+        <dc:description xml:lang="en">The Source ontology module addresses concepts and relationships for representing sources of (music-related) information.</dc:description>
+        <rdfs:label xml:lang="en">Source Ontology</rdfs:label>
+        <dc:title xml:lang="en">Source Ontology</dc:title>
+        <dc:creator xml:lang="en">Jacopo de Berardinis</dc:creator>
+        <dc:creator xml:lang="en">Fiorela Ciroku</dc:creator>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
+        <terms:license rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
+        <terms:modified>"2021-11-18"^^xsd:date</terms:modified>
+        <terms:issued>"2021-08-5"^^xsd:date</terms:issued>
+        <vann:preferredNamespacePrefix>src:</vann:preferredNamespacePrefix>
+        <vann:preferredNamespaceUri>https://w3id.org/polifonia/ontology/source/</vann:preferredNamespaceUri>
+        <owl:versionInfo xml:lang="en">1.0</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -28,88 +43,88 @@
     
 
 
-    <!-- http://w3id.org/polifonia/ontology/source/hasContextOfProduction -->
+    <!-- https://w3id.org/polifonia/ontology/source/hasContextOfProduction -->
 
-    <owl:ObjectProperty rdf:about="http://w3id.org/polifonia/ontology/source/hasContextOfProduction">
-        <owl:inverseOf rdf:resource="http://w3id.org/polifonia/ontology/source/isContextOfProductionOf"/>
-        <rdfs:domain rdf:resource="http://w3id.org/polifonia/ontology/source/Source"/>
-        <rdfs:range rdf:resource="http://w3id.org/polifonia/ontology/source/ContextOfProduction"/>
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/source/hasContextOfProduction">
+        <owl:inverseOf rdf:resource="https://w3id.org/polifonia/ontology/source/isContextOfProductionOf"/>
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/source/Source"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/source/ContextOfProduction"/>
         <rdfs:label xml:lang="en">has context of production</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://w3id.org/polifonia/ontology/source/hasContextOfUsage -->
+    <!-- https://w3id.org/polifonia/ontology/source/hasContextOfUsage -->
 
-    <owl:ObjectProperty rdf:about="http://w3id.org/polifonia/ontology/source/hasContextOfUsage">
-        <owl:inverseOf rdf:resource="http://w3id.org/polifonia/ontology/source/isContextOfUsageOf"/>
-        <rdfs:domain rdf:resource="http://w3id.org/polifonia/ontology/source/Source"/>
-        <rdfs:range rdf:resource="http://w3id.org/polifonia/ontology/source/ContextOfUsage"/>
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/source/hasContextOfUsage">
+        <owl:inverseOf rdf:resource="https://w3id.org/polifonia/ontology/source/isContextOfUsageOf"/>
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/source/Source"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/source/ContextOfUsage"/>
         <rdfs:label xml:lang="en">has context of usage</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://w3id.org/polifonia/ontology/source/hasSourceCredibility -->
+    <!-- https://w3id.org/polifonia/ontology/source/hasSourceCredibility -->
 
-    <owl:ObjectProperty rdf:about="http://w3id.org/polifonia/ontology/source/hasSourceCredibility">
-        <owl:inverseOf rdf:resource="http://w3id.org/polifonia/ontology/source/isSourceCredibilityOf"/>
-        <rdfs:domain rdf:resource="http://w3id.org/polifonia/ontology/source/Source"/>
-        <rdfs:range rdf:resource="http://w3id.org/polifonia/ontology/source/SourceCredibility"/>
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/source/hasSourceCredibility">
+        <owl:inverseOf rdf:resource="https://w3id.org/polifonia/ontology/source/isSourceCredibilityOf"/>
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/source/Source"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/source/SourceCredibility"/>
         <rdfs:label xml:lang="en">has source credibility</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://w3id.org/polifonia/ontology/source/hasSubject -->
+    <!-- https://w3id.org/polifonia/ontology/source/hasSubject -->
 
-    <owl:ObjectProperty rdf:about="http://w3id.org/polifonia/ontology/source/hasSubject">
-        <owl:inverseOf rdf:resource="http://w3id.org/polifonia/ontology/source/isSubjectOf"/>
-        <rdfs:domain rdf:resource="http://w3id.org/polifonia/ontology/source/Source"/>
-        <rdfs:range rdf:resource="http://w3id.org/polifonia/ontology/source/Subject"/>
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/source/hasSubject">
+        <owl:inverseOf rdf:resource="https://w3id.org/polifonia/ontology/source/isSubjectOf"/>
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/source/Source"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/source/Subject"/>
         <rdfs:label xml:lang="en">has subject</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://w3id.org/polifonia/ontology/source/isContextOfProductionOf -->
+    <!-- https://w3id.org/polifonia/ontology/source/isContextOfProductionOf -->
 
-    <owl:ObjectProperty rdf:about="http://w3id.org/polifonia/ontology/source/isContextOfProductionOf">
-        <rdfs:domain rdf:resource="http://w3id.org/polifonia/ontology/source/ContextOfProduction"/>
-        <rdfs:range rdf:resource="http://w3id.org/polifonia/ontology/source/Source"/>
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/source/isContextOfProductionOf">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/source/ContextOfProduction"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/source/Source"/>
         <rdfs:label xml:lang="en">is context of production of</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://w3id.org/polifonia/ontology/source/isContextOfUsageOf -->
+    <!-- https://w3id.org/polifonia/ontology/source/isContextOfUsageOf -->
 
-    <owl:ObjectProperty rdf:about="http://w3id.org/polifonia/ontology/source/isContextOfUsageOf">
-        <rdfs:domain rdf:resource="http://w3id.org/polifonia/ontology/source/ContextOfUsage"/>
-        <rdfs:range rdf:resource="http://w3id.org/polifonia/ontology/source/Source"/>
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/source/isContextOfUsageOf">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/source/ContextOfUsage"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/source/Source"/>
         <rdfs:label xml:lang="en">is context of usage of</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://w3id.org/polifonia/ontology/source/isGoalOf -->
+    <!-- https://w3id.org/polifonia/ontology/source/isGoalOf -->
 
-    <owl:ObjectProperty rdf:about="http://w3id.org/polifonia/ontology/source/isGoalOf">
-        <rdfs:range rdf:resource="http://w3id.org/polifonia/ontology/source/Source"/>
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/source/isGoalOf">
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/source/Source"/>
         <rdfs:label xml:lang="en">is goal of</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://w3id.org/polifonia/ontology/source/isRelatedTo -->
+    <!-- https://w3id.org/polifonia/ontology/source/isRelatedTo -->
 
-    <owl:ObjectProperty rdf:about="http://w3id.org/polifonia/ontology/source/isRelatedTo">
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/source/isRelatedTo">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
-        <rdfs:domain rdf:resource="http://w3id.org/polifonia/ontology/source/Source"/>
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/source/Source"/>
         <rdfs:range>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://w3id.org/polifonia/ontology/source/Source"/>
+                    <rdf:Description rdf:about="https://w3id.org/polifonia/ontology/source/Source"/>
                     <rdf:Description rdf:about="https://w3id.org/polifonia/ontology/source/Fragment"/>
                 </owl:unionOf>
             </owl:Class>
@@ -120,21 +135,21 @@
     
 
 
-    <!-- http://w3id.org/polifonia/ontology/source/isSourceCredibilityOf -->
+    <!-- https://w3id.org/polifonia/ontology/source/isSourceCredibilityOf -->
 
-    <owl:ObjectProperty rdf:about="http://w3id.org/polifonia/ontology/source/isSourceCredibilityOf">
-        <rdfs:domain rdf:resource="http://w3id.org/polifonia/ontology/source/SourceCredibility"/>
-        <rdfs:range rdf:resource="http://w3id.org/polifonia/ontology/source/Source"/>
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/source/isSourceCredibilityOf">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/source/SourceCredibility"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/source/Source"/>
         <rdfs:label xml:lang="en">is source credibility of</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://w3id.org/polifonia/ontology/source/isSubjectOf -->
+    <!-- https://w3id.org/polifonia/ontology/source/isSubjectOf -->
 
-    <owl:ObjectProperty rdf:about="http://w3id.org/polifonia/ontology/source/isSubjectOf">
-        <rdfs:domain rdf:resource="http://w3id.org/polifonia/ontology/source/Subject"/>
-        <rdfs:range rdf:resource="http://w3id.org/polifonia/ontology/source/Source"/>
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/source/isSubjectOf">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/source/Subject"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/source/Source"/>
         <rdfs:label xml:lang="en">is subject of</rdfs:label>
     </owl:ObjectProperty>
     
@@ -144,7 +159,7 @@
 
     <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/source/hasMediumOfPublishing">
         <owl:inverseOf rdf:resource="https://w3id.org/polifonia/ontology/source/isMediumOfPublishingOf"/>
-        <rdfs:domain rdf:resource="http://w3id.org/polifonia/ontology/source/Source"/>
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/source/Source"/>
         <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/source/MediumOfPublishing"/>
         <rdfs:label xml:lang="en">has medium of publishing</rdfs:label>
     </owl:ObjectProperty>
@@ -155,7 +170,7 @@
 
     <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/source/hasReference">
         <owl:inverseOf rdf:resource="https://w3id.org/polifonia/ontology/source/isReferenceOf"/>
-        <rdfs:domain rdf:resource="http://w3id.org/polifonia/ontology/source/Source"/>
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/source/Source"/>
         <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/source/BibliographicalReference"/>
         <rdfs:label xml:lang="en">has reference</rdfs:label>
     </owl:ObjectProperty>
@@ -189,11 +204,11 @@
     
 
 
-    <!-- http://w3id.org/polifonia/ontology/source/isSubjectRelatedTo -->
+    <!-- https://w3id.org/polifonia/ontology/source/isSubjectRelatedTo -->
 
-    <owl:DatatypeProperty rdf:about="http://w3id.org/polifonia/ontology/source/isSubjectRelatedTo">
+    <owl:DatatypeProperty rdf:about="https://w3id.org/polifonia/ontology/source/isSubjectRelatedTo">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://w3id.org/polifonia/ontology/source/Subject"/>
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/source/Subject"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">is subject related to</rdfs:label>
     </owl:DatatypeProperty>
@@ -211,25 +226,25 @@
     
 
 
-    <!-- http://w3id.org/polifonia/ontology/source/ContextOfProduction -->
+    <!-- https://w3id.org/polifonia/ontology/source/ContextOfProduction -->
 
-    <owl:Class rdf:about="http://w3id.org/polifonia/ontology/source/ContextOfProduction">
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/source/ContextOfProduction">
         <rdfs:label xml:lang="en">Context Of Production</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://w3id.org/polifonia/ontology/source/ContextOfUsage -->
+    <!-- https://w3id.org/polifonia/ontology/source/ContextOfUsage -->
 
-    <owl:Class rdf:about="http://w3id.org/polifonia/ontology/source/ContextOfUsage">
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/source/ContextOfUsage">
         <rdfs:label xml:lang="en">Context Of Usage</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://w3id.org/polifonia/ontology/source/Source -->
+    <!-- https://w3id.org/polifonia/ontology/source/Source -->
 
-    <owl:Class rdf:about="http://w3id.org/polifonia/ontology/source/Source">
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/source/Source">
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/hasPart"/>
@@ -281,26 +296,26 @@
     
 
 
-    <!-- http://w3id.org/polifonia/ontology/source/SourceCredibility -->
+    <!-- https://w3id.org/polifonia/ontology/source/SourceCredibility -->
 
-    <owl:Class rdf:about="http://w3id.org/polifonia/ontology/source/SourceCredibility">
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/source/SourceCredibility">
         <rdfs:label xml:lang="en">Source Credibility</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://w3id.org/polifonia/ontology/source/SourceType -->
+    <!-- https://w3id.org/polifonia/ontology/source/SourceType -->
 
-    <owl:Class rdf:about="http://w3id.org/polifonia/ontology/source/SourceType">
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/source/SourceType">
         <rdfs:comment xml:lang="en">The nature or genre of the resource.</rdfs:comment>
         <rdfs:label xml:lang="en">Source Type</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://w3id.org/polifonia/ontology/source/Subject -->
+    <!-- https://w3id.org/polifonia/ontology/source/Subject -->
 
-    <owl:Class rdf:about="http://w3id.org/polifonia/ontology/source/Subject">
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/source/Subject">
         <rdfs:label xml:lang="en">Subject</rdfs:label>
     </owl:Class>
     
@@ -327,6 +342,8 @@
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/source/MediumOfPublishing">
         <rdfs:label xml:lang="en">Medium of publishing</rdfs:label>
     </owl:Class>
+
 </rdf:RDF>
 
 <!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
