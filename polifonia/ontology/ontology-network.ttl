@@ -13,7 +13,7 @@
                                                                      <https://w3id.org/polifonia/ontology/core/> ,
                                                                      <https://raw.githubusercontent.com/Danysan1/unibo-ke-matching-ontologies/main/polifonia/ontology/music-instrument.owl> ,
                                                                      <https://raw.githubusercontent.com/Danysan1/unibo-ke-matching-ontologies/main/polifonia/ontology/music-algorithm.owl> ,
-                                                                     <https://w3id.org/polifonia/ontology/music-analysis/> ,
+                                                                     <https://raw.githubusercontent.com/Danysan1/unibo-ke-matching-ontologies/main/polifonia/ontology/music-analysis.owl> ,
                                                                      <https://raw.githubusercontent.com/Danysan1/unibo-ke-matching-ontologies/main/polifonia/ontology/music-annotation.ttl> ,
                                                                      <https://raw.githubusercontent.com/Danysan1/unibo-ke-matching-ontologies/main/polifonia/ontology/music-meta.owl> ,
                                                                      <https://raw.githubusercontent.com/Danysan1/unibo-ke-matching-ontologies/main/polifonia/ontology/music-projection.owl> ,

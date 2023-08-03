@@ -8,7 +8,7 @@ rectangle "https://w3id.org/polifonia/ontology/" {
     [music-instrument] as instrument #line:red
     [music-algorithm] as algorithm #line:red
     [music-annotation] as annotation #line:red
-    [music-analysis] as analysis
+    [music-analysis] as analysis #line:red
     [music-meta] as meta #line:red
     [music-projection] as projection #line:red
     [music-representation] as representation #line:red
@@ -21,9 +21,9 @@ rectangle "https://w3id.org/polifonia/ontology/" {
     network --> bells
     network --> cometa
     network --> core
-    network -[#red,thickness=4]-> instrument: broken\nfixed
+    network -[#red,thickness=4]-> instrument: broken link\nfixed
     network --> algorithm
-    network --> analysis
+    network  -[#red,thickness=4]-> analysis: invalid file\nfixed
     network --> annotation
     network --> meta
     network --> projection
@@ -42,9 +42,8 @@ rectangle "https://w3id.org/polifonia/ontology/" {
     tunes --> meta
     cometa --> meta
     source --> core
-
-    annotation -[#red,thickness=4]-> jams: broken\nfixed
-    algorithm -[#red,thickness=4]-> pattern: broken\nfixed
+    annotation -[#red,thickness=4]-> jams: broken link\nfixed
+    algorithm -[#red,thickness=4]-> pattern: broken link\nfixed
 }
 
 rectangle "http://purl.org/ontology/" {
@@ -77,10 +76,10 @@ rectangle "https://w3id.org/italia/onto/" {
     [l0]
     [POI] #line:red
 
-    AccessCondition -[#red]-> l0
-    AccessCondition -[#red]-> TI
+    AccessCondition --> l0
+    AccessCondition --> TI
     TI -[#red,dashed]-> l0 : duplicate\nremoved
-    TI -[#red]-> MU
+    TI --> MU
     COV --> CLV
     COV -[#red,dashed]-> MU: duplicate\nremoved
     COV --> RO
@@ -110,22 +109,22 @@ rectangle "http://purl.org/NET/c4dm/" {
 [http://www.w3.org/2004/02/skos/core] as skos
 [http://purl.org/vocab/bio/0.1/] as bio
 
-meta -[#red,thickness=4]-----> doremus: broken\nfixed
+meta -[#red,thickness=4]-----> doremus: broken link\nfixed
 
-ao_core -[#red,thickness=4]--> musim: broken\nfixed
-ao_core -[#red,thickness=4]--> terms: broken\nfixed
-mo -[#red,thickness=4]--> terms: broken\nfixed
-mo -[#red,thickness=4]--> foaf: broken\nfixed
-ao_core -[#red,thickness=4]---> foaf: broken\nfixed
+ao_core -[#red,thickness=4]--> musim: broken link\nfixed
+ao_core -[#red,thickness=4]--> terms: broken link\nfixed
+mo -[#red,thickness=4]--> terms: broken link\nfixed
+mo -[#red,thickness=4]--> foaf: broken link\nfixed
+ao_core -[#red,thickness=4]---> foaf: broken link\nfixed
 
 meta -----> mo
 bells ----> arco
 campaign --> COV
 
-ao_core -[#red,thickness=4]--> event: sometimes broken\nfixed
-mo -[#red,thickness=4]--> event: sometimes broken\nfixed
-mo -[#red,thickness=4]--> keys: sometimes broken\nfixed
-mo -[#red,thickness=4]--> bio: sometimes broken\nfixed
+ao_core -[#red,thickness=4]--> event: sometimes broken link\nfixed
+mo -[#red,thickness=4]--> event: sometimes broken link\nfixed
+mo -[#red,thickness=4]--> keys: sometimes broken link\nfixed
+mo -[#red,thickness=4]--> bio: sometimes broken link\nfixed
 
 doremus -[#red,dashed]-> skos: duplicate\nremoved
 representation -[#red,dashed]-> skos: duplicate\nremoved
