@@ -60,10 +60,14 @@ Full list: [link](https://github.com/polifonia-project/ontology-network/blob/5e9
     * BERTMap: A BERT-based Ontology Alignment System
         * [Paper](https://arxiv.org/abs/2112.02682) on ArXiV
         * [KRR-Oxford/BERTMap](https://github.com/KRR-Oxford/BERTMap) on GitHub
-       * Now maintained under DeepOnto
-          * [Website](https://krr-oxford.github.io/DeepOnto/)
-          * [BERTMap under DeepOnto](https://krr-oxford.github.io/DeepOnto/bertmap/)
-          * [KRR-Oxford/DeepOnto](https://github.com/KRR-Oxford/DeepOnto) on GitHub
+        * Now maintained under DeepOnto
+            * [Website](https://krr-oxford.github.io/DeepOnto/)
+            * [BERTMap under DeepOnto](https://krr-oxford.github.io/DeepOnto/bertmap/)
+            * [KRR-Oxford/DeepOnto](https://github.com/KRR-Oxford/DeepOnto) on GitHub
+* Abandoned
+    * AgreementMaker
+        * [Website](https://agreementmaker.github.io/)
+        * [agreementmaker/agreementmaker](https://github.com/agreementmaker/agreementmaker) on GitHub
 
 Other resources:
 * [Ontology Alignment on ResearchGate](https://www.researchgate.net/topic/Ontology-Alignment/publications)

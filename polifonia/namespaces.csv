@@ -17,7 +17,7 @@ cometa.original.owl,https://w3id.org/polifonia/ontology/cometa/
 core.owl,https://w3id.org/polifonia/ontology/core/
 music-instrument.original.owl,https://w3id.org/polifonia/ontology/music-instrument/
 music-algorithm.original.owl,https://w3id.org/polifonia/ontology/music-algorithm/
-music-analysis.owl,https://w3id.org/polifonia/ontology/music-analysis/
+music-analysis.original.owl,https://w3id.org/polifonia/ontology/music-analysis/
 music-annotation.original.ttl,https://w3id.org/polifonia/ontology/music-annotation/
 music-meta.original.owl,https://w3id.org/polifonia/ontology/music-meta/
 music-projection.original.owl,https://w3id.org/polifonia/ontology/music-projection/
