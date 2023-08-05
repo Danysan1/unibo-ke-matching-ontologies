@@ -32,3 +32,12 @@ https://w3id.org/polifonia/ontology/core/Type	http://www.wikidata.org/entity/Q37
 https://w3id.org/polifonia/ontology/instrument/Instrument	http://www.wikidata.org/entity/Q34379	1.0
 https://w3id.org/polifonia/ontology/music-meta/MediumOfPerformance	http://www.wikidata.org/entity/Q617028	1.0
 https://w3id.org/polifonia/ontology/algorithm-pattern/Task	http://www.wikidata.org/entity/Q1365224	0.9
+https://w3id.org/polifonia/ontology/core/Agent	https://w3id.org/polifonia/ontology/algorithm-pattern/Agent	1.0
+https://w3id.org/polifonia/ontology/music-algorithm/ComputationalAnalysis	https://w3id.org/polifonia/ontology/algorithm-pattern/Output	1.0
+https://w3id.org/polifonia/ontology/music-meta/MediumOfPerformance	http://data.doremus.org/ontology#M14_Medium_Of_Performance	1.0
+https://w3id.org/polifonia/ontology/music-meta/Award	http://data.doremus.org/ontology#M36_Award	1.0
+https://w3id.org/polifonia/ontology/music-meta/Key	http://data.doremus.org/ontology#M4_Key	1.0
+https://w3id.org/polifonia/ontology/music-meta/MusicGenre	http://data.doremus.org/ontology#M5_Genre	1.0
+https://w3id.org/polifonia/ontology/core/Person	http://erlangen-crm.org/current/E21_Person	1.0
+https://w3id.org/polifonia/ontology/core/Place	http://erlangen-crm.org/efrbroo/F9_Place	1.0
+https://w3id.org/polifonia/ontology/music-projection/DiatonicStep	http://www.w3.org/2001/XMLSchema#int	1.0
