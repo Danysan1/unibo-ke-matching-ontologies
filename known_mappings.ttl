@@ -77,7 +77,8 @@
 <https://w3id.org/polifonia/ontology/music-meta/MediumOfPerformance> owl:equivalentClass <http://data.doremus.org/ontology#M14_Medium_Of_Performance>,
         <http://www.wikidata.org/entity/Q617028> .
 
-<https://w3id.org/polifonia/ontology/music-meta/MusicGenre> owl:equivalentClass <http://data.doremus.org/ontology#M5_Genre> .
+<https://w3id.org/polifonia/ontology/music-meta/MusicGenre> owl:equivalentClass <http://data.doremus.org/ontology#M5_Genre>,
+        <http://www.wikidata.org/entity/Q188451> .
 
 <https://w3id.org/polifonia/ontology/music-projection/DiatonicStep> owl:equivalentClass xsd:int .
 
