@@ -17,6 +17,7 @@ mappings_dataset.addN(
 print(f"\tLoaded {len(mappings_dataset)} quads")
 
 class_graph = Graph()
+class_graph.addN((s,p,o,class_graph) for (s,p,o) in mappings_dataset.triples((None,None,None)))
 
 print("Reading known mappings from the ontology into the list")
 polifonia_files = os.scandir(polifonia_ontology_folder_path)
@@ -34,8 +35,8 @@ for file in polifonia_files:
                 moduleURI = namespace
                 moduleContext = mappings_dataset.graph(namespace)
                 break
-
-        print("\tLoading equivalence triples from the ontology to the dataset")
+        
+        print("\tLoading equivalence triples from the ontology module ", moduleURI)
         equivalent_classes = moduleGraph.triples((None, OWL.equivalentClass, None))
         equivalent_proprties = moduleGraph.triples((None, OWL.equivalentProperty, None))
         all_triples = itertools.chain(equivalent_classes, equivalent_proprties)
@@ -44,7 +45,7 @@ for file in polifonia_files:
         )
 
         if(len(moduleContext) == 0):
-            print("\tNo equivalence triples found in the ontology")
+            print("\tNo equivalence triples found in the module")
         else:
             print("\tQuerying Wikidata for inferred class mappings")
             equivalentClasses = moduleContext.query("""
@@ -86,15 +87,14 @@ for file in polifonia_files:
                     (row.polifoniaProp, OWL.equivalentProperty, row.wikidataProp, mappings_dataset.graph("http://www.wikidata.org/entity/"))
                 )
 
-
-            print("\tLoading classes from the ontology to the graph, module:", moduleURI)
-            class_graph.addN((s,p,o,class_graph) for (s,p,o) in itertools.chain(
-                moduleGraph.triples((None, RDF.type, OWL.Class)),
-                moduleContext.triples((None, OWL.equivalentClass, None)),
-                moduleContext.triples((None, OWL.equivalentProperty, None))
-            )  if s.toPython().startswith("https://w3id.org/polifonia"))
-
-            print(f"\tModule contains {len(moduleContext)} triples, dataset contains {len(mappings_dataset)} quads")
+            print(f"\t{len(moduleContext)} equivalence triples in module, {len(mappings_dataset)} total")
+        
+        print("\tLoading classes from the module to the class graph")
+        class_graph.addN((s,p,o,class_graph) for (s,p,o) in itertools.chain(
+            moduleGraph.triples((None, RDF.type, OWL.Class)),
+            moduleContext.triples((None, OWL.equivalentClass, None)),
+            moduleContext.triples((None, OWL.equivalentProperty, None))
+        )  if s.toPython().startswith("https://w3id.org/polifonia"))
     except Exception as e:
         print("\tError processing", file_path)
         print("\t", e)
