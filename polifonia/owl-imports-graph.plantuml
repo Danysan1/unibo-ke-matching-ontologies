@@ -9,7 +9,7 @@ rectangle "https://w3id.org/polifonia/ontology/" {
     [music-algorithm] as algorithm #line:red
     [music-annotation] as annotation #line:red
     [music-analysis] as analysis #line:red
-    [music-meta] as meta #line:red
+    [music-meta] as meta
     [music-projection] as projection #line:red
     [music-representation] as representation #line:red
     [organs] #line:red
@@ -17,6 +17,7 @@ rectangle "https://w3id.org/polifonia/ontology/" {
     [tunes] #line:red
     [jams] #line:red
     [algorithm-pattern] as pattern
+    [musicmeta-aligns] as align #line:red
 
     network --> bells
     network --> cometa
@@ -109,7 +110,7 @@ rectangle "http://purl.org/NET/c4dm/" {
 [http://www.w3.org/2004/02/skos/core] as skos
 [http://purl.org/vocab/bio/0.1/] as bio
 
-meta -[#red,thickness=4]-----> doremus: broken link\nfixed
+align -[#red,thickness=4]-> doremus: broken link
 
 ao_core -[#red,thickness=4]--> musim: broken link\nfixed
 ao_core -[#red,thickness=4]--> terms: broken link\nfixed
@@ -117,7 +118,7 @@ mo -[#red,thickness=4]--> terms: broken link\nfixed
 mo -[#red,thickness=4]--> foaf: broken link\nfixed
 ao_core -[#red,thickness=4]---> foaf: broken link\nfixed
 
-meta -----> mo
+align --> mo
 bells ----> arco
 campaign --> COV
 

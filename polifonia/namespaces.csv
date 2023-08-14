@@ -19,7 +19,8 @@ music-instrument.original.owl,https://w3id.org/polifonia/ontology/music-instrume
 music-algorithm.original.owl,https://w3id.org/polifonia/ontology/music-algorithm/
 music-analysis.original.owl,https://w3id.org/polifonia/ontology/music-analysis/
 music-annotation.original.ttl,https://w3id.org/polifonia/ontology/music-annotation/
-music-meta.original.owl,https://w3id.org/polifonia/ontology/music-meta/
+music-meta.owl,https://w3id.org/polifonia/ontology/music-meta/
+musicmeta-aligns.owl,https://raw.githubusercontent.com/polifonia-project/music-meta-ontology/main/ontology/musicmeta-aligns.owl
 music-projection.original.owl,https://w3id.org/polifonia/ontology/music-projection/
 music-representation.original.owl,https://w3id.org/polifonia/ontology/music-representation/
 organs.original.owl,https://w3id.org/polifonia/ontology/organs/
