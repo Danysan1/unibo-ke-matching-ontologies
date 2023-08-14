@@ -45,7 +45,7 @@ https://w3id.org/polifonia/ontology/music-meta/Libretto	https://w3id.org/polifon
 https://w3id.org/polifonia/ontology/music-meta/License	https://w3id.org/polifonia/ontology/wikimeta-music/Q79719	1.0	https://w3id.org/polifonia/ontology/music-meta/
 https://w3id.org/polifonia/ontology/music-meta/Lyrics	https://w3id.org/polifonia/ontology/wikimeta-music/Q602446	1.0	https://w3id.org/polifonia/ontology/music-meta/
 https://w3id.org/polifonia/ontology/music-meta/MediumOfPerformance	http://data.doremus.org/ontology#M14_Medium_Of_Performance	1.0	https://w3id.org/polifonia/ontology/music-meta/
-https://w3id.org/polifonia/ontology/music-meta/MediumOfPerformance	http://www.wikidata.org/entity/Q617028	1.0	https://w3id.org/polifonia/ontology/music-meta/
+https://w3id.org/polifonia/ontology/music-meta/MediumOfPerformance	http://www.wikidata.org/entity/Q617028	1.0	https://github.com/Danysan1/unibo-ke-matching-ontologies/manual-matches/
 https://w3id.org/polifonia/ontology/music-meta/MusicEnsenble	https://w3id.org/polifonia/ontology/wikimeta-music/Q2088357	1.0	https://w3id.org/polifonia/ontology/music-meta/
 https://w3id.org/polifonia/ontology/music-meta/MusicGenre	http://data.doremus.org/ontology#M5_Genre	1.0	https://w3id.org/polifonia/ontology/music-meta/
 https://w3id.org/polifonia/ontology/music-meta/MusicGenre	http://www.wikidata.org/entity/Q188451	1.0	http://www.wikidata.org/entity/
