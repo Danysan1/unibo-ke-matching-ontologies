@@ -21,7 +21,7 @@ https://w3id.org/polifonia/ontology/algorithm-pattern/ProcessingRole
 https://w3id.org/polifonia/ontology/algorithm-pattern/ProcessingType	
 https://w3id.org/polifonia/ontology/algorithm-pattern/ProgrammingLanguage	
 https://w3id.org/polifonia/ontology/algorithm-pattern/PublicImplementation	
-https://w3id.org/polifonia/ontology/algorithm-pattern/Task	
+https://w3id.org/polifonia/ontology/algorithm-pattern/Task	http://www.wikidata.org/entity/Q1365224
 https://w3id.org/polifonia/ontology/algorithm-pattern/TaskProcessingSituation	
 https://w3id.org/polifonia/ontology/algorithm-pattern/TaskType	
 https://w3id.org/polifonia/ontology/algorithm-pattern/TheoreticalFormalisation	
@@ -45,55 +45,55 @@ https://w3id.org/polifonia/ontology/cometa/ontology_URI#DatasetSplit
 https://w3id.org/polifonia/ontology/cometa/ontology_URI#FeatureType	
 https://w3id.org/polifonia/ontology/cometa/ontology_URI#ProductionMethod	
 https://w3id.org/polifonia/ontology/cometa/ontology_URI#SplitType	
-https://w3id.org/polifonia/ontology/core/Action	
-https://w3id.org/polifonia/ontology/core/Address	
+https://w3id.org/polifonia/ontology/core/Action	http://www.wikidata.org/entity/Q4026292
+https://w3id.org/polifonia/ontology/core/Address	http://www.wikidata.org/entity/Q319608
 https://w3id.org/polifonia/ontology/core/AddressComponent	
-https://w3id.org/polifonia/ontology/core/Agent	
+https://w3id.org/polifonia/ontology/core/Agent	http://www.wikidata.org/entity/Q24229398
 https://w3id.org/polifonia/ontology/core/AgentRole	
-https://w3id.org/polifonia/ontology/core/Alias	
+https://w3id.org/polifonia/ontology/core/Alias	http://www.wikidata.org/entity/Q61002
 https://w3id.org/polifonia/ontology/core/CellectionMembershipStrength	
-https://w3id.org/polifonia/ontology/core/City	
-https://w3id.org/polifonia/ontology/core/Collection	
+https://w3id.org/polifonia/ontology/core/City	http://www.wikidata.org/entity/Q515
+https://w3id.org/polifonia/ontology/core/Collection	http://www.wikidata.org/entity/Q2668072
 https://w3id.org/polifonia/ontology/core/CollectionConcept	
 https://w3id.org/polifonia/ontology/core/CollectionMembership	
 https://w3id.org/polifonia/ontology/core/Concept	
-https://w3id.org/polifonia/ontology/core/Country	
-https://w3id.org/polifonia/ontology/core/Description	
-https://w3id.org/polifonia/ontology/core/District	
-https://w3id.org/polifonia/ontology/core/Event	
-https://w3id.org/polifonia/ontology/core/Explanation	
-https://w3id.org/polifonia/ontology/core/GeographicalFeature	
+https://w3id.org/polifonia/ontology/core/Country	http://www.wikidata.org/entity/Q6256
+https://w3id.org/polifonia/ontology/core/Description	http://www.wikidata.org/entity/Q1200750
+https://w3id.org/polifonia/ontology/core/District	http://www.wikidata.org/entity/Q123705
+https://w3id.org/polifonia/ontology/core/Event	http://www.wikidata.org/entity/Q1190554
+https://w3id.org/polifonia/ontology/core/Explanation	http://www.wikidata.org/entity/Q7958
+https://w3id.org/polifonia/ontology/core/GeographicalFeature	http://www.wikidata.org/entity/Q618123
 https://w3id.org/polifonia/ontology/core/InformationObject	
 https://w3id.org/polifonia/ontology/core/InformationRealization	
-https://w3id.org/polifonia/ontology/core/Language	
+https://w3id.org/polifonia/ontology/core/Language	http://www.wikidata.org/entity/Q34770
 https://w3id.org/polifonia/ontology/core/MusicDataset	
 https://w3id.org/polifonia/ontology/core/MusicTimeDuration	
 https://w3id.org/polifonia/ontology/core/MusicTimeIndex	
 https://w3id.org/polifonia/ontology/core/MusicTimeIndexComponent	
 https://w3id.org/polifonia/ontology/core/MusicTimeInterval	
 https://w3id.org/polifonia/ontology/core/MusicTimeValueType	
-https://w3id.org/polifonia/ontology/core/Name	
-https://w3id.org/polifonia/ontology/core/Organization	
-https://w3id.org/polifonia/ontology/core/Person	
+https://w3id.org/polifonia/ontology/core/Name	http://www.wikidata.org/entity/Q82799
+https://w3id.org/polifonia/ontology/core/Organization	http://www.wikidata.org/entity/Q43229
+https://w3id.org/polifonia/ontology/core/Person	http://www.wikidata.org/entity/Q5
 https://w3id.org/polifonia/ontology/core/PhysicalSite	
-https://w3id.org/polifonia/ontology/core/Place	
-https://w3id.org/polifonia/ontology/core/Province	
-https://w3id.org/polifonia/ontology/core/Reference	
-https://w3id.org/polifonia/ontology/core/Region	
-https://w3id.org/polifonia/ontology/core/Role	
-https://w3id.org/polifonia/ontology/core/Situation	
-https://w3id.org/polifonia/ontology/core/Source	
-https://w3id.org/polifonia/ontology/core/SpatialObject	
-https://w3id.org/polifonia/ontology/core/Street	
-https://w3id.org/polifonia/ontology/core/Task	
-https://w3id.org/polifonia/ontology/core/Theory	
+https://w3id.org/polifonia/ontology/core/Place	http://www.wikidata.org/entity/Q115095765
+https://w3id.org/polifonia/ontology/core/Province	http://www.wikidata.org/entity/Q34876
+https://w3id.org/polifonia/ontology/core/Reference	http://www.wikidata.org/entity/Q121769
+https://w3id.org/polifonia/ontology/core/Region	http://www.wikidata.org/entity/Q1414991
+https://w3id.org/polifonia/ontology/core/Role	http://www.wikidata.org/entity/Q214339
+https://w3id.org/polifonia/ontology/core/Situation	http://www.wikidata.org/entity/Q2141565
+https://w3id.org/polifonia/ontology/core/Source	http://www.wikidata.org/entity/Q2574811
+https://w3id.org/polifonia/ontology/core/SpatialObject	http://www.wikidata.org/entity/Q2221906
+https://w3id.org/polifonia/ontology/core/Street	http://www.wikidata.org/entity/Q79007
+https://w3id.org/polifonia/ontology/core/Task	http://www.wikidata.org/entity/Q759676
+https://w3id.org/polifonia/ontology/core/Theory	http://www.wikidata.org/entity/Q17737
 https://w3id.org/polifonia/ontology/core/TimeIndexedName	
 https://w3id.org/polifonia/ontology/core/TimeIndexedRole	
 https://w3id.org/polifonia/ontology/core/TimeIndexedSituation	
-https://w3id.org/polifonia/ontology/core/TimeInterval	
-https://w3id.org/polifonia/ontology/core/Title	
-https://w3id.org/polifonia/ontology/core/Type	
-https://w3id.org/polifonia/ontology/instrument/Instrument	
+https://w3id.org/polifonia/ontology/core/TimeInterval	http://www.wikidata.org/entity/Q186081
+https://w3id.org/polifonia/ontology/core/Title	http://www.wikidata.org/entity/Q783521
+https://w3id.org/polifonia/ontology/core/Type	http://www.wikidata.org/entity/Q3707858
+https://w3id.org/polifonia/ontology/instrument/Instrument	http://www.wikidata.org/entity/Q34379
 https://w3id.org/polifonia/ontology/instrument/InstrumentPart	
 https://w3id.org/polifonia/ontology/instrument/InstrumentRealization	
 https://w3id.org/polifonia/ontology/instrument/Voice	
@@ -118,7 +118,7 @@ https://w3id.org/polifonia/ontology/music-meta/Libretto	https://w3id.org/polifon
 https://w3id.org/polifonia/ontology/music-meta/License	https://w3id.org/polifonia/ontology/wikimeta-music/Q79719
 https://w3id.org/polifonia/ontology/music-meta/LivePerformance	
 https://w3id.org/polifonia/ontology/music-meta/Lyrics	https://w3id.org/polifonia/ontology/wikimeta-music/Q602446
-https://w3id.org/polifonia/ontology/music-meta/MediumOfPerformance	
+https://w3id.org/polifonia/ontology/music-meta/MediumOfPerformance	http://www.wikidata.org/entity/Q617028
 https://w3id.org/polifonia/ontology/music-meta/Mode	
 https://w3id.org/polifonia/ontology/music-meta/Movement	
 https://w3id.org/polifonia/ontology/music-meta/MusicAlgorithm	
@@ -127,6 +127,7 @@ https://w3id.org/polifonia/ontology/music-meta/MusicArtist
 https://w3id.org/polifonia/ontology/music-meta/MusicEnsembleMembership	
 https://w3id.org/polifonia/ontology/music-meta/MusicEnsenble	https://w3id.org/polifonia/ontology/wikimeta-music/Q2088357
 https://w3id.org/polifonia/ontology/music-meta/MusicEntity	
+https://w3id.org/polifonia/ontology/music-meta/MusicGenre	http://www.wikidata.org/entity/Q188451
 https://w3id.org/polifonia/ontology/music-meta/MusicGenre	https://w3id.org/polifonia/ontology/wikimeta-music/Q188451
 https://w3id.org/polifonia/ontology/music-meta/MusicSheet	
 https://w3id.org/polifonia/ontology/music-meta/MusicalPerformance	https://w3id.org/polifonia/ontology/wikimeta-music/Q6942562

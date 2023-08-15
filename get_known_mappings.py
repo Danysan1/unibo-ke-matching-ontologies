@@ -9,17 +9,18 @@ known_mappings_tsv_file_path = os.path.join(os.getcwd(), 'known_mappings.tsv')
 wikidata_tsv_file_path = os.path.join(os.getcwd(), 'wikidata', 'polifonia_wikidata.tsv')
 known_mappings_nquads_file_path = os.path.join(os.getcwd(), 'known_mappings.nq')
 
-print("Loading existing known mappings into a list")
+print("Loading existing known mappings from the n-quads file into a Dataset")
 mappings_dataset = Dataset()
-mappings_dataset.addN(
-    (URIRef(row['SrcEntity']), OWL.equivalentClass, URIRef(row['TgtEntity']), mappings_dataset.graph(row['Source'])) for _,row in pd.read_csv(known_mappings_tsv_file_path, sep='\t').iterrows()
-)
-print(f"\tLoaded {len(mappings_dataset)} quads")
+mappings_dataset.parse(known_mappings_nquads_file_path, format='nquads')
+# mappings_dataset.addN(
+#     (URIRef(row['SrcEntity']), OWL.equivalentClass, URIRef(row['TgtEntity']), mappings_dataset.graph(row['Source'])) for _,row in pd.read_csv(known_mappings_tsv_file_path, sep='\t').iterrows()
+# )
 
+print(f"\tLoaded {len(mappings_dataset)} quads, copying as triples into the class Graph")
 class_graph = Graph()
-class_graph.addN((s,p,o,class_graph) for (s,p,o) in mappings_dataset.triples((None,None,None)))
+class_graph.addN((s,p,o,class_graph) for (s,p,o,_) in mappings_dataset.quads((None,None,None,None)))
 
-print("Reading known mappings from the ontology into the list")
+print("Reading known mappings from the ontology into the Dataset")
 polifonia_files = os.scandir(polifonia_ontology_folder_path)
 for file in polifonia_files:
     print("Reading", file.name)
@@ -99,16 +100,16 @@ for file in polifonia_files:
         print("\tError processing", file_path)
         print("\t", e)
 
-# print("Saving known mappings to RDF")
-# mappings_dataset.serialize(destination=known_mappings_nquads_file_path, format='nquads')
+print("Saving known mappings to RDF n-quads file")
+mappings_dataset.serialize(destination=known_mappings_nquads_file_path, format='nquads')
 
-print("Creating mappings DataFrame, removing duplicates, sorting and saving to TSV")
+print("Creating known mappings DataFrame, removing duplicates, sorting and saving to TSV")
 equivalent_classes = mappings_dataset.quads((None, OWL.equivalentClass, None, None))
 equivalent_proprties = mappings_dataset.quads((None, OWL.equivalentProperty, None, None))
 all_equivalent = itertools.chain(equivalent_classes, equivalent_proprties)
 pd.DataFrame(
-    [[subject_class,object_class,1.0,source] for (subject_class,_,object_class,source) in all_equivalent],
-    columns=['SrcEntity', 'TgtEntity', 'Score', 'Source']
+    [[subject_class,object_class,1.0] for (subject_class,_,object_class,_) in all_equivalent],
+    columns=['SrcEntity', 'TgtEntity', 'Score']
 ).drop_duplicates().sort_values(['SrcEntity', 'TgtEntity']).to_csv(known_mappings_tsv_file_path, sep='\t', index=False)
 
 print("Creating classes DataFrame, removing duplicates, sorting and saving to TSV")

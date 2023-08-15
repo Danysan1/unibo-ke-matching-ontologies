@@ -1,59 +1,59 @@
-SrcEntity	TgtEntity	Score	Source
-https://w3id.org/polifonia/ontology/algorithm-pattern/Task	http://www.wikidata.org/entity/Q1365224	1.0	https://github.com/Danysan1/unibo-ke-matching-ontologies/manual-matches/
-https://w3id.org/polifonia/ontology/core/Action	http://www.wikidata.org/entity/Q4026292	1.0	https://github.com/Danysan1/unibo-ke-matching-ontologies/manual-matches/
-https://w3id.org/polifonia/ontology/core/Address	http://www.wikidata.org/entity/Q319608	1.0	https://github.com/Danysan1/unibo-ke-matching-ontologies/manual-matches/
-https://w3id.org/polifonia/ontology/core/Agent	http://www.wikidata.org/entity/Q24229398	1.0	https://github.com/Danysan1/unibo-ke-matching-ontologies/manual-matches/
-https://w3id.org/polifonia/ontology/core/Agent	https://w3id.org/polifonia/ontology/algorithm-pattern/Agent	1.0	https://w3id.org/polifonia/ontology/music-algorithm/
-https://w3id.org/polifonia/ontology/core/Alias	http://www.wikidata.org/entity/Q61002	1.0	https://github.com/Danysan1/unibo-ke-matching-ontologies/manual-matches/
-https://w3id.org/polifonia/ontology/core/City	http://www.wikidata.org/entity/Q515	1.0	https://github.com/Danysan1/unibo-ke-matching-ontologies/manual-matches/
-https://w3id.org/polifonia/ontology/core/Collection	http://www.wikidata.org/entity/Q2668072	1.0	https://github.com/Danysan1/unibo-ke-matching-ontologies/manual-matches/
-https://w3id.org/polifonia/ontology/core/Country	http://www.wikidata.org/entity/Q6256	1.0	https://github.com/Danysan1/unibo-ke-matching-ontologies/manual-matches/
-https://w3id.org/polifonia/ontology/core/Description	http://www.wikidata.org/entity/Q1200750	1.0	https://github.com/Danysan1/unibo-ke-matching-ontologies/manual-matches/
-https://w3id.org/polifonia/ontology/core/District	http://www.wikidata.org/entity/Q123705	1.0	https://github.com/Danysan1/unibo-ke-matching-ontologies/manual-matches/
-https://w3id.org/polifonia/ontology/core/Event	http://www.wikidata.org/entity/Q1190554	1.0	https://github.com/Danysan1/unibo-ke-matching-ontologies/manual-matches/
-https://w3id.org/polifonia/ontology/core/Explanation	http://www.wikidata.org/entity/Q7958	1.0	https://github.com/Danysan1/unibo-ke-matching-ontologies/manual-matches/
-https://w3id.org/polifonia/ontology/core/GeographicalFeature	http://www.wikidata.org/entity/Q618123	1.0	https://github.com/Danysan1/unibo-ke-matching-ontologies/manual-matches/
-https://w3id.org/polifonia/ontology/core/Language	http://www.wikidata.org/entity/Q34770	1.0	https://github.com/Danysan1/unibo-ke-matching-ontologies/manual-matches/
-https://w3id.org/polifonia/ontology/core/Name	http://www.wikidata.org/entity/Q82799	1.0	https://github.com/Danysan1/unibo-ke-matching-ontologies/manual-matches/
-https://w3id.org/polifonia/ontology/core/Organization	http://www.wikidata.org/entity/Q43229	1.0	https://github.com/Danysan1/unibo-ke-matching-ontologies/manual-matches/
-https://w3id.org/polifonia/ontology/core/Person	http://erlangen-crm.org/current/E21_Person	1.0	https://w3id.org/polifonia/ontology/music-meta/
-https://w3id.org/polifonia/ontology/core/Person	http://www.wikidata.org/entity/Q5	1.0	http://www.wikidata.org/entity/
-https://w3id.org/polifonia/ontology/core/Place	http://erlangen-crm.org/efrbroo/F9_Place	1.0	https://w3id.org/polifonia/ontology/music-meta/
-https://w3id.org/polifonia/ontology/core/Place	http://www.wikidata.org/entity/Q115095765	1.0	https://github.com/Danysan1/unibo-ke-matching-ontologies/manual-matches/
-https://w3id.org/polifonia/ontology/core/Province	http://www.wikidata.org/entity/Q34876	1.0	https://github.com/Danysan1/unibo-ke-matching-ontologies/manual-matches/
-https://w3id.org/polifonia/ontology/core/Reference	http://www.wikidata.org/entity/Q121769	1.0	https://github.com/Danysan1/unibo-ke-matching-ontologies/manual-matches/
-https://w3id.org/polifonia/ontology/core/Region	http://www.wikidata.org/entity/Q1414991	1.0	https://github.com/Danysan1/unibo-ke-matching-ontologies/manual-matches/
-https://w3id.org/polifonia/ontology/core/Role	http://www.wikidata.org/entity/Q214339	1.0	https://github.com/Danysan1/unibo-ke-matching-ontologies/manual-matches/
-https://w3id.org/polifonia/ontology/core/Situation	http://www.wikidata.org/entity/Q2141565	1.0	https://github.com/Danysan1/unibo-ke-matching-ontologies/manual-matches/
-https://w3id.org/polifonia/ontology/core/Source	http://www.wikidata.org/entity/Q2574811	1.0	https://github.com/Danysan1/unibo-ke-matching-ontologies/manual-matches/
-https://w3id.org/polifonia/ontology/core/SpatialObject	http://www.wikidata.org/entity/Q2221906	1.0	https://github.com/Danysan1/unibo-ke-matching-ontologies/manual-matches/
-https://w3id.org/polifonia/ontology/core/Street	http://www.wikidata.org/entity/Q79007	1.0	https://github.com/Danysan1/unibo-ke-matching-ontologies/manual-matches/
-https://w3id.org/polifonia/ontology/core/Task	http://www.wikidata.org/entity/Q759676	1.0	https://github.com/Danysan1/unibo-ke-matching-ontologies/manual-matches/
-https://w3id.org/polifonia/ontology/core/Theory	http://www.wikidata.org/entity/Q17737	1.0	https://github.com/Danysan1/unibo-ke-matching-ontologies/manual-matches/
-https://w3id.org/polifonia/ontology/core/TimeInterval	http://www.wikidata.org/entity/Q186081	1.0	https://github.com/Danysan1/unibo-ke-matching-ontologies/manual-matches/
-https://w3id.org/polifonia/ontology/core/Title	http://www.wikidata.org/entity/Q783521	1.0	https://github.com/Danysan1/unibo-ke-matching-ontologies/manual-matches/
-https://w3id.org/polifonia/ontology/core/Type	http://www.wikidata.org/entity/Q3707858	1.0	https://github.com/Danysan1/unibo-ke-matching-ontologies/manual-matches/
-https://w3id.org/polifonia/ontology/core/isDerivedFrom	https://w3id.org/polifonia/ontology/wikimeta-music/P4969	1.0	https://w3id.org/polifonia/ontology/music-meta/
-https://w3id.org/polifonia/ontology/core/title	https://w3id.org/polifonia/ontology/wikimeta-music/P1476	1.0	https://w3id.org/polifonia/ontology/music-meta/
-https://w3id.org/polifonia/ontology/instrument/Instrument	http://www.wikidata.org/entity/Q34379	1.0	https://github.com/Danysan1/unibo-ke-matching-ontologies/manual-matches/
-https://w3id.org/polifonia/ontology/music-algorithm/ComputationalAnalysis	https://w3id.org/polifonia/ontology/algorithm-pattern/Output	1.0	https://w3id.org/polifonia/ontology/music-algorithm/
-https://w3id.org/polifonia/ontology/music-meta/Award	http://data.doremus.org/ontology#M36_Award	1.0	https://w3id.org/polifonia/ontology/music-meta/
-https://w3id.org/polifonia/ontology/music-meta/Award	https://w3id.org/polifonia/ontology/wikimeta-music/Q618779	1.0	https://w3id.org/polifonia/ontology/music-meta/
-https://w3id.org/polifonia/ontology/music-meta/Broadcaster	https://w3id.org/polifonia/ontology/wikimeta-music/Q15265344	1.0	https://w3id.org/polifonia/ontology/music-meta/
-https://w3id.org/polifonia/ontology/music-meta/Key	http://data.doremus.org/ontology#M4_Key	1.0	https://w3id.org/polifonia/ontology/music-meta/
-https://w3id.org/polifonia/ontology/music-meta/Libretto	https://w3id.org/polifonia/ontology/wikimeta-music/Q131084	1.0	https://w3id.org/polifonia/ontology/music-meta/
-https://w3id.org/polifonia/ontology/music-meta/License	https://w3id.org/polifonia/ontology/wikimeta-music/Q79719	1.0	https://w3id.org/polifonia/ontology/music-meta/
-https://w3id.org/polifonia/ontology/music-meta/Lyrics	https://w3id.org/polifonia/ontology/wikimeta-music/Q602446	1.0	https://w3id.org/polifonia/ontology/music-meta/
-https://w3id.org/polifonia/ontology/music-meta/MediumOfPerformance	http://data.doremus.org/ontology#M14_Medium_Of_Performance	1.0	https://w3id.org/polifonia/ontology/music-meta/
-https://w3id.org/polifonia/ontology/music-meta/MediumOfPerformance	http://www.wikidata.org/entity/Q617028	1.0	https://github.com/Danysan1/unibo-ke-matching-ontologies/manual-matches/
-https://w3id.org/polifonia/ontology/music-meta/MusicEnsenble	https://w3id.org/polifonia/ontology/wikimeta-music/Q2088357	1.0	https://w3id.org/polifonia/ontology/music-meta/
-https://w3id.org/polifonia/ontology/music-meta/MusicGenre	http://data.doremus.org/ontology#M5_Genre	1.0	https://w3id.org/polifonia/ontology/music-meta/
-https://w3id.org/polifonia/ontology/music-meta/MusicGenre	http://www.wikidata.org/entity/Q188451	1.0	http://www.wikidata.org/entity/
-https://w3id.org/polifonia/ontology/music-meta/MusicGenre	https://w3id.org/polifonia/ontology/wikimeta-music/Q188451	1.0	https://w3id.org/polifonia/ontology/music-meta/
-https://w3id.org/polifonia/ontology/music-meta/MusicalPerformance	https://w3id.org/polifonia/ontology/wikimeta-music/Q6942562	1.0	https://w3id.org/polifonia/ontology/music-meta/
-https://w3id.org/polifonia/ontology/music-meta/Musician	https://w3id.org/polifonia/ontology/wikimeta-music/Q639669	1.0	https://w3id.org/polifonia/ontology/music-meta/
-https://w3id.org/polifonia/ontology/music-meta/RecordingProcess	https://w3id.org/polifonia/ontology/wikimeta-music/Q13557414	1.0	https://w3id.org/polifonia/ontology/music-meta/
-https://w3id.org/polifonia/ontology/music-meta/Text	https://w3id.org/polifonia/ontology/wikimeta-music/Q234460	1.0	https://w3id.org/polifonia/ontology/music-meta/
-https://w3id.org/polifonia/ontology/music-meta/hasGenre	https://w3id.org/polifonia/ontology/wikimeta-music/P136	1.0	https://w3id.org/polifonia/ontology/music-meta/
-https://w3id.org/polifonia/ontology/music-meta/opusNumber	https://w3id.org/polifonia/ontology/wikimeta-music/P10855	1.0	https://w3id.org/polifonia/ontology/music-meta/
-https://w3id.org/polifonia/ontology/music-projection/DiatonicStep	http://www.w3.org/2001/XMLSchema#int	1.0	https://w3id.org/polifonia/ontology/music-projection/
+SrcEntity	TgtEntity	Score
+https://w3id.org/polifonia/ontology/algorithm-pattern/Task	http://www.wikidata.org/entity/Q1365224	1.0
+https://w3id.org/polifonia/ontology/core/Action	http://www.wikidata.org/entity/Q4026292	1.0
+https://w3id.org/polifonia/ontology/core/Address	http://www.wikidata.org/entity/Q319608	1.0
+https://w3id.org/polifonia/ontology/core/Agent	http://www.wikidata.org/entity/Q24229398	1.0
+https://w3id.org/polifonia/ontology/core/Agent	https://w3id.org/polifonia/ontology/algorithm-pattern/Agent	1.0
+https://w3id.org/polifonia/ontology/core/Alias	http://www.wikidata.org/entity/Q61002	1.0
+https://w3id.org/polifonia/ontology/core/City	http://www.wikidata.org/entity/Q515	1.0
+https://w3id.org/polifonia/ontology/core/Collection	http://www.wikidata.org/entity/Q2668072	1.0
+https://w3id.org/polifonia/ontology/core/Country	http://www.wikidata.org/entity/Q6256	1.0
+https://w3id.org/polifonia/ontology/core/Description	http://www.wikidata.org/entity/Q1200750	1.0
+https://w3id.org/polifonia/ontology/core/District	http://www.wikidata.org/entity/Q123705	1.0
+https://w3id.org/polifonia/ontology/core/Event	http://www.wikidata.org/entity/Q1190554	1.0
+https://w3id.org/polifonia/ontology/core/Explanation	http://www.wikidata.org/entity/Q7958	1.0
+https://w3id.org/polifonia/ontology/core/GeographicalFeature	http://www.wikidata.org/entity/Q618123	1.0
+https://w3id.org/polifonia/ontology/core/Language	http://www.wikidata.org/entity/Q34770	1.0
+https://w3id.org/polifonia/ontology/core/Name	http://www.wikidata.org/entity/Q82799	1.0
+https://w3id.org/polifonia/ontology/core/Organization	http://www.wikidata.org/entity/Q43229	1.0
+https://w3id.org/polifonia/ontology/core/Person	http://erlangen-crm.org/current/E21_Person	1.0
+https://w3id.org/polifonia/ontology/core/Person	http://www.wikidata.org/entity/Q5	1.0
+https://w3id.org/polifonia/ontology/core/Place	http://erlangen-crm.org/efrbroo/F9_Place	1.0
+https://w3id.org/polifonia/ontology/core/Place	http://www.wikidata.org/entity/Q115095765	1.0
+https://w3id.org/polifonia/ontology/core/Province	http://www.wikidata.org/entity/Q34876	1.0
+https://w3id.org/polifonia/ontology/core/Reference	http://www.wikidata.org/entity/Q121769	1.0
+https://w3id.org/polifonia/ontology/core/Region	http://www.wikidata.org/entity/Q1414991	1.0
+https://w3id.org/polifonia/ontology/core/Role	http://www.wikidata.org/entity/Q214339	1.0
+https://w3id.org/polifonia/ontology/core/Situation	http://www.wikidata.org/entity/Q2141565	1.0
+https://w3id.org/polifonia/ontology/core/Source	http://www.wikidata.org/entity/Q2574811	1.0
+https://w3id.org/polifonia/ontology/core/SpatialObject	http://www.wikidata.org/entity/Q2221906	1.0
+https://w3id.org/polifonia/ontology/core/Street	http://www.wikidata.org/entity/Q79007	1.0
+https://w3id.org/polifonia/ontology/core/Task	http://www.wikidata.org/entity/Q759676	1.0
+https://w3id.org/polifonia/ontology/core/Theory	http://www.wikidata.org/entity/Q17737	1.0
+https://w3id.org/polifonia/ontology/core/TimeInterval	http://www.wikidata.org/entity/Q186081	1.0
+https://w3id.org/polifonia/ontology/core/Title	http://www.wikidata.org/entity/Q783521	1.0
+https://w3id.org/polifonia/ontology/core/Type	http://www.wikidata.org/entity/Q3707858	1.0
+https://w3id.org/polifonia/ontology/core/isDerivedFrom	https://w3id.org/polifonia/ontology/wikimeta-music/P4969	1.0
+https://w3id.org/polifonia/ontology/core/title	https://w3id.org/polifonia/ontology/wikimeta-music/P1476	1.0
+https://w3id.org/polifonia/ontology/instrument/Instrument	http://www.wikidata.org/entity/Q34379	1.0
+https://w3id.org/polifonia/ontology/music-algorithm/ComputationalAnalysis	https://w3id.org/polifonia/ontology/algorithm-pattern/Output	1.0
+https://w3id.org/polifonia/ontology/music-meta/Award	http://data.doremus.org/ontology#M36_Award	1.0
+https://w3id.org/polifonia/ontology/music-meta/Award	https://w3id.org/polifonia/ontology/wikimeta-music/Q618779	1.0
+https://w3id.org/polifonia/ontology/music-meta/Broadcaster	https://w3id.org/polifonia/ontology/wikimeta-music/Q15265344	1.0
+https://w3id.org/polifonia/ontology/music-meta/Key	http://data.doremus.org/ontology#M4_Key	1.0
+https://w3id.org/polifonia/ontology/music-meta/Libretto	https://w3id.org/polifonia/ontology/wikimeta-music/Q131084	1.0
+https://w3id.org/polifonia/ontology/music-meta/License	https://w3id.org/polifonia/ontology/wikimeta-music/Q79719	1.0
+https://w3id.org/polifonia/ontology/music-meta/Lyrics	https://w3id.org/polifonia/ontology/wikimeta-music/Q602446	1.0
+https://w3id.org/polifonia/ontology/music-meta/MediumOfPerformance	http://data.doremus.org/ontology#M14_Medium_Of_Performance	1.0
+https://w3id.org/polifonia/ontology/music-meta/MediumOfPerformance	http://www.wikidata.org/entity/Q617028	1.0
+https://w3id.org/polifonia/ontology/music-meta/MusicEnsenble	https://w3id.org/polifonia/ontology/wikimeta-music/Q2088357	1.0
+https://w3id.org/polifonia/ontology/music-meta/MusicGenre	http://data.doremus.org/ontology#M5_Genre	1.0
+https://w3id.org/polifonia/ontology/music-meta/MusicGenre	http://www.wikidata.org/entity/Q188451	1.0
+https://w3id.org/polifonia/ontology/music-meta/MusicGenre	https://w3id.org/polifonia/ontology/wikimeta-music/Q188451	1.0
+https://w3id.org/polifonia/ontology/music-meta/MusicalPerformance	https://w3id.org/polifonia/ontology/wikimeta-music/Q6942562	1.0
+https://w3id.org/polifonia/ontology/music-meta/Musician	https://w3id.org/polifonia/ontology/wikimeta-music/Q639669	1.0
+https://w3id.org/polifonia/ontology/music-meta/RecordingProcess	https://w3id.org/polifonia/ontology/wikimeta-music/Q13557414	1.0
+https://w3id.org/polifonia/ontology/music-meta/Text	https://w3id.org/polifonia/ontology/wikimeta-music/Q234460	1.0
+https://w3id.org/polifonia/ontology/music-meta/hasGenre	https://w3id.org/polifonia/ontology/wikimeta-music/P136	1.0
+https://w3id.org/polifonia/ontology/music-meta/opusNumber	https://w3id.org/polifonia/ontology/wikimeta-music/P10855	1.0
+https://w3id.org/polifonia/ontology/music-projection/DiatonicStep	http://www.w3.org/2001/XMLSchema#int	1.0
