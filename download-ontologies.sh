@@ -7,4 +7,4 @@
 python ./wikidata/download-ontologies.py
 
 python ./get_known_mappings.py
-#cp known_mappings.tsv wikidata/known_mappings.tsv
+sort -o ./known_mappings.nq ./known_mappings.nq
