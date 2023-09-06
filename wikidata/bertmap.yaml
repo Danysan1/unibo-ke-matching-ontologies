@@ -34,6 +34,6 @@ global_matching:
   enabled: true
   num_raw_candidates: 200 # the number of potential candidates selected for mapping predictions
   num_best_predictions: 10  # the number of best scored mappings preserved in the raw output mappings
-  mapping_extension_threshold: 0.9  # \kappa
-  mapping_filtered_threshold: 0.9995 # \lambda
+  mapping_extension_threshold: 0.8  # \kappa
+  mapping_filtered_threshold: 0.9 # \lambda
   for_oaei: false

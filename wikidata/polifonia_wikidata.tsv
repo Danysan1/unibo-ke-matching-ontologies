@@ -100,7 +100,9 @@ https://w3id.org/polifonia/ontology/instrument/Voice
 https://w3id.org/polifonia/ontology/music-algorithm/ComputationalAnalysis	
 https://w3id.org/polifonia/ontology/music-meta/AbstractScore	
 https://w3id.org/polifonia/ontology/music-meta/AnnotationMethod	
+https://w3id.org/polifonia/ontology/music-meta/Award	http://www.wikidata.org/entity/Q618779
 https://w3id.org/polifonia/ontology/music-meta/Award	https://w3id.org/polifonia/ontology/wikimeta-music/Q618779
+https://w3id.org/polifonia/ontology/music-meta/Broadcaster	http://www.wikidata.org/entity/Q15265344
 https://w3id.org/polifonia/ontology/music-meta/Broadcaster	https://w3id.org/polifonia/ontology/wikimeta-music/Q15265344
 https://w3id.org/polifonia/ontology/music-meta/BroadcastingSituation	
 https://w3id.org/polifonia/ontology/music-meta/Collection	
@@ -114,9 +116,12 @@ https://w3id.org/polifonia/ontology/music-meta/DigitalScore
 https://w3id.org/polifonia/ontology/music-meta/FormType	
 https://w3id.org/polifonia/ontology/music-meta/Instrumentation	
 https://w3id.org/polifonia/ontology/music-meta/Key	
+https://w3id.org/polifonia/ontology/music-meta/Libretto	http://www.wikidata.org/entity/Q131084
 https://w3id.org/polifonia/ontology/music-meta/Libretto	https://w3id.org/polifonia/ontology/wikimeta-music/Q131084
+https://w3id.org/polifonia/ontology/music-meta/License	http://www.wikidata.org/entity/Q79719
 https://w3id.org/polifonia/ontology/music-meta/License	https://w3id.org/polifonia/ontology/wikimeta-music/Q79719
 https://w3id.org/polifonia/ontology/music-meta/LivePerformance	
+https://w3id.org/polifonia/ontology/music-meta/Lyrics	http://www.wikidata.org/entity/Q602446
 https://w3id.org/polifonia/ontology/music-meta/Lyrics	https://w3id.org/polifonia/ontology/wikimeta-music/Q602446
 https://w3id.org/polifonia/ontology/music-meta/MediumOfPerformance	http://www.wikidata.org/entity/Q617028
 https://w3id.org/polifonia/ontology/music-meta/Mode	
@@ -125,12 +130,15 @@ https://w3id.org/polifonia/ontology/music-meta/MusicAlgorithm
 https://w3id.org/polifonia/ontology/music-meta/MusicAnnotationTimeInterval	
 https://w3id.org/polifonia/ontology/music-meta/MusicArtist	
 https://w3id.org/polifonia/ontology/music-meta/MusicEnsembleMembership	
+https://w3id.org/polifonia/ontology/music-meta/MusicEnsenble	http://www.wikidata.org/entity/Q2088357
 https://w3id.org/polifonia/ontology/music-meta/MusicEnsenble	https://w3id.org/polifonia/ontology/wikimeta-music/Q2088357
 https://w3id.org/polifonia/ontology/music-meta/MusicEntity	
 https://w3id.org/polifonia/ontology/music-meta/MusicGenre	http://www.wikidata.org/entity/Q188451
 https://w3id.org/polifonia/ontology/music-meta/MusicGenre	https://w3id.org/polifonia/ontology/wikimeta-music/Q188451
 https://w3id.org/polifonia/ontology/music-meta/MusicSheet	
+https://w3id.org/polifonia/ontology/music-meta/MusicalPerformance	http://www.wikidata.org/entity/Q6942562
 https://w3id.org/polifonia/ontology/music-meta/MusicalPerformance	https://w3id.org/polifonia/ontology/wikimeta-music/Q6942562
+https://w3id.org/polifonia/ontology/music-meta/Musician	http://www.wikidata.org/entity/Q639669
 https://w3id.org/polifonia/ontology/music-meta/Musician	https://w3id.org/polifonia/ontology/wikimeta-music/Q639669
 https://w3id.org/polifonia/ontology/music-meta/Note	
 https://w3id.org/polifonia/ontology/music-meta/OpusStatement	
@@ -138,12 +146,14 @@ https://w3id.org/polifonia/ontology/music-meta/PublicationSituation
 https://w3id.org/polifonia/ontology/music-meta/Publisher	
 https://w3id.org/polifonia/ontology/music-meta/Recording	
 https://w3id.org/polifonia/ontology/music-meta/RecordingEquipment	
+https://w3id.org/polifonia/ontology/music-meta/RecordingProcess	http://www.wikidata.org/entity/Q13557414
 https://w3id.org/polifonia/ontology/music-meta/RecordingProcess	https://w3id.org/polifonia/ontology/wikimeta-music/Q13557414
 https://w3id.org/polifonia/ontology/music-meta/Release	
 https://w3id.org/polifonia/ontology/music-meta/Score	
 https://w3id.org/polifonia/ontology/music-meta/ScorePart	
 https://w3id.org/polifonia/ontology/music-meta/Section	
 https://w3id.org/polifonia/ontology/music-meta/StudioPerformance	
+https://w3id.org/polifonia/ontology/music-meta/Text	http://www.wikidata.org/entity/Q234460
 https://w3id.org/polifonia/ontology/music-meta/Text	https://w3id.org/polifonia/ontology/wikimeta-music/Q234460
 https://w3id.org/polifonia/ontology/music-meta/TextFragment	
 https://w3id.org/polifonia/ontology/music-projection/Accidental	
