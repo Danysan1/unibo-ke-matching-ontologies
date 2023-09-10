@@ -7,4 +7,4 @@
 python ./wikidata/download-ontologies.py
 
 python ./get_known_mappings.py
-sort -o ./known_mappings.nq ./known_mappings.nq
+sort --ignore-case -o ./known_mappings.nq ./known_mappings.nq
