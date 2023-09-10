@@ -71,11 +71,11 @@ https://w3id.org/polifonia/ontology/instrument/InstrumentRealization	???	http://
 https://w3id.org/polifonia/ontology/instrument/Voice	http://www.wikidata.org/entity/Q17172850	http://www.wikidata.org/entity/Q17172850
 https://w3id.org/polifonia/ontology/instrument/InstrumentPart	http://www.wikidata.org/entity/Q19659292	http://www.wikidata.org/entity/Q104479805
 https://w3id.org/polifonia/ontology/instrument/InstrumentPart	http://www.wikidata.org/entity/Q19659292	http://www.wikidata.org/entity/Q19659292
-https://w3id.org/polifonia/ontology/music-meta/CreativeAction	http://www.wikidata.org/entity/wiki/Q386724	http://www.wikidata.org/entity/Q742341
-https://w3id.org/polifonia/ontology/music-meta/CreativeAction	http://www.wikidata.org/entity/wiki/Q386724	http://www.wikidata.org/entity/Q1410936
-https://w3id.org/polifonia/ontology/music-meta/Release	http://www.wikidata.org/entity/wiki/Q3972943	http://www.wikidata.org/entity/Q17148351
-https://w3id.org/polifonia/ontology/music-meta/Score	https://www.wikidata.org/wiki/Q109274999	http://www.wikidata.org/entity/Q187947
-https://w3id.org/polifonia/ontology/music-meta/Score	https://www.wikidata.org/wiki/Q109274999	http://www.wikidata.org/entity/Q107021951
+https://w3id.org/polifonia/ontology/music-meta/CreativeAction	http://www.wikidata.org/entity/Q386724	http://www.wikidata.org/entity/Q742341
+https://w3id.org/polifonia/ontology/music-meta/CreativeAction	http://www.wikidata.org/entity/Q386724	http://www.wikidata.org/entity/Q1410936
+https://w3id.org/polifonia/ontology/music-meta/Release	http://www.wikidata.org/entity/Q3972943	http://www.wikidata.org/entity/Q17148351
+https://w3id.org/polifonia/ontology/music-meta/Score	http://www.wikidata.org/entity/Q109274999	http://www.wikidata.org/entity/Q187947
+https://w3id.org/polifonia/ontology/music-meta/Score	http://www.wikidata.org/entity/Q109274999	http://www.wikidata.org/entity/Q107021951
 https://w3id.org/polifonia/ontology/music-meta/Movement	http://www.wikidata.org/entity/Q929848	http://www.wikidata.org/entity/Q3694031
 https://w3id.org/polifonia/ontology/music-meta/Movement	http://www.wikidata.org/entity/Q929848	http://www.wikidata.org/entity/Q929848
 https://w3id.org/polifonia/ontology/music-meta/ScorePart	http://www.wikidata.org/entity/Q104479805	http://www.wikidata.org/entity/Q104479805
@@ -95,7 +95,7 @@ https://w3id.org/polifonia/ontology/music-meta/DigitalScore	0	http://www.wikidat
 https://w3id.org/polifonia/ontology/music-meta/DigitalScore	0	http://www.wikidata.org/entity/Q73918100
 https://w3id.org/polifonia/ontology/music-meta/DigitalScore	0	http://www.wikidata.org/entity/Q11320501
 https://w3id.org/polifonia/ontology/music-meta/DigitalScore	0	http://www.wikidata.org/entity/Q5276177
-https://w3id.org/polifonia/ontology/music-meta/StudioPerformance	?????	http://www.wikidata.org/entity/Q7628270
+https://w3id.org/polifonia/ontology/music-meta/StudioPerformance	http://www.wikidata.org/entity/Q15975575	http://www.wikidata.org/entity/Q7628270
 https://w3id.org/polifonia/ontology/music-meta/Key	http://www.wikidata.org/entity/Q534932	http://www.wikidata.org/entity/Q42935438
 https://w3id.org/polifonia/ontology/music-meta/Key	http://www.wikidata.org/entity/Q534932	http://www.wikidata.org/entity/Q1117156
 https://w3id.org/polifonia/ontology/music-meta/CompositionPart	0	http://www.wikidata.org/entity/Q104479805
@@ -116,7 +116,7 @@ https://w3id.org/polifonia/ontology/music-projection/Key	http://www.wikidata.org
 https://w3id.org/polifonia/ontology/music-projection/Key	http://www.wikidata.org/entity/Q534932	http://www.wikidata.org/entity/Q42935438
 https://w3id.org/polifonia/ontology/music-projection/CadenceType	0	http://www.wikidata.org/entity/Q2932658
 https://w3id.org/polifonia/ontology/music-projection/CadenceType	0	http://www.wikidata.org/entity/Q4993817
-https://w3id.org/polifonia/ontology/music-projection/Interval	??	http://www.wikidata.org/entity/Q1349335
+https://w3id.org/polifonia/ontology/music-projection/Interval	http://www.wikidata.org/entity/Q189962	http://www.wikidata.org/entity/Q1349335
 https://w3id.org/polifonia/ontology/music-projection/Chord	http://www.wikidata.org/entity/Q170439	http://www.wikidata.org/entity/Q1798603
 https://w3id.org/polifonia/ontology/music-projection/Chord	http://www.wikidata.org/entity/Q170439	http://www.wikidata.org/entity/Q370915
 https://w3id.org/polifonia/ontology/music-projection/Chord	http://www.wikidata.org/entity/Q170439	http://www.wikidata.org/entity/Q419896
