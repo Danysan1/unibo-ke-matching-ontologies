@@ -7,9 +7,19 @@ CONSTRUCT {
          owl:equivalentClass ?equivalentClass.
 } WHERE {
   hint:Query hint:optimizer "None".
-  VALUES ?top { wd:Q2188189 wd:Q115669410 wd:Q110879422 wd:Q18127 wd:Q32178211 wd:Q56146933 wd:Q115211517 wd:Q20202269 wd:Q9357442 wd:Q638 wd:Q65007448 }
-  ?class wdt:P279* ?top;
-         wdt:P279 ?superClass;
+  
+  {
+    VALUES ?top { wd:Q2188189 wd:Q115669410 wd:Q110879422 wd:Q18127 wd:Q32178211 wd:Q638 wd:Q65007448 wd:Q746359 }
+    ?class wdt:P279* ?top.
+  } UNION {
+    ?class wdt:P279*/wdt:P2579 wd:Q164204.
+  } UNION {
+    ?class wdt:P279*/wdt:P1269 wd:Q164204.
+  } UNION {
+    ?class wdt:P279*/wdt:P1269 wd:Q638.
+  }
+
+  ?class wdt:P279 ?superClass;
          rdfs:label ?classLabel FILTER(lang(?classLabel) = 'en').
   OPTIONAL { ?class schema:description ?classDescription FILTER(lang(?classDescription) = 'en'). }
   OPTIONAL { ?class skos:altLabel ?classAlias FILTER(lang(?classAlias) = 'en'). }
