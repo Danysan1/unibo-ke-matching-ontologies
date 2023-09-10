@@ -16,6 +16,3 @@ if(os.path.exists(out_tsv_file_path)):
     os.unlink(out_tsv_file_path)
 output_df.to_csv(out_tsv_file_path, sep='\t', index=False, header=True)
 
-y_true = output_df['TrueWikidataClass'].tolist()
-y_pred = output_df['BertWikidataClass'].tolist()
-print(classification_report(y_true, y_pred, zero_division=0))
