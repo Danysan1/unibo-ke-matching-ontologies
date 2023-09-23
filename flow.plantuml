@@ -1,0 +1,53 @@
+@startuml flow
+cloud wikidata
+rectangle "wikidata/download-ontologies.py" as downwikidata #aliceblue
+file "wikidata/ontology/music.owl" as musicowl #palegreen
+wikidata --> downwikidata
+downwikidata --> musicowl
+
+cloud polifonia
+rectangle "polifonia/download-ontologies.sh" as downpolifonia #aliceblue
+folder "polifonia/ontology" as polifoniaowl #palegreen
+polifonia --> downpolifonia
+downpolifonia --> polifoniaowl
+
+rectangle "get_known_mappings.py" #aliceblue
+file "known_mappings.tsv"
+file "wikidata/polifonia_wikidata.tsv" as polifonia_wikidata
+file "known_mappings.nq"
+note bottom of known_mappings.nq: Includes some manual matches, mainly for the core module
+known_mappings.nq --> get_known_mappings.py
+polifoniaowl --> get_known_mappings.py
+wikidata ..> get_known_mappings.py
+get_known_mappings.py --> known_mappings.tsv
+get_known_mappings.py --> polifonia_wikidata
+get_known_mappings.py --> known_mappings.nq
+
+rectangle notebook #aliceblue
+file "wikidata/bertmap.yaml" as yml
+file "wikidata/bertmap_repaired_mappings.tsv" as repaired
+yml --> notebook
+known_mappings.tsv --> notebook
+musicowl --> notebook
+polifoniaowl --> notebook
+notebook --> repaired
+
+rectangle "merge_true_with_bertmap.py" #aliceblue {
+rectangle "Part 1" as merge1 #aliceblue
+rectangle "Part 2" as merge2 #aliceblue
+}
+file all.tsv
+polifonia_wikidata --> merge1
+merge1 --> all.tsv
+
+file "all_with_bertmap.tsv"
+note left of all_with_bertmap.tsv: Manual (true) matches are added to all classes which have a Bertmap (predicted) match and no known mapping
+all.tsv --> merge2
+repaired --> merge2
+merge2 --> all_with_bertmap.tsv
+
+rectangle evaultate_all_with_bertmap.py as evaluate #aliceblue
+file "report.txt"
+all_with_bertmap.tsv --> evaluate
+evaluate --> report.txt
+@enduml
