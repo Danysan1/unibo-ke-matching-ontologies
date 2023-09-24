@@ -1,41 +1,56 @@
 @startuml flow
-cloud wikidata
-rectangle "wikidata/download-ontologies.py" as downwikidata #aliceblue
-file "wikidata/ontology/music.owl" as musicowl #palegreen
-wikidata --> downwikidata
-downwikidata --> musicowl
 
-cloud polifonia
-rectangle "polifonia/download-ontologies.sh" as downpolifonia #aliceblue
+cloud "Wikidata Query Service" as wikidata #palegreen
+file musicClasses.rq
+file musicDataProperties.rq
+file musicObjectProperties.rq
+file musicClasses.rdf
+file musicDataProperties.rdf
+file musicObjectProperties.rdf
+file music.owl #palegreen
+rectangle "**download-ontologies.py** (part 1 - fetch)" as wd1 #aliceblue
+rectangle "**download-ontologies.py** (part 2 - merge)" as wd2 #aliceblue
+musicClasses.rq --> wd1
+musicDataProperties.rq --> wd1
+musicObjectProperties.rq --> wd1
+wikidata --> wd1
+wd1 --> musicClasses.rdf
+wd1 --> musicDataProperties.rdf
+wd1 --> musicObjectProperties.rdf
+musicClasses.rdf --> wd2
+musicDataProperties.rdf --> wd2
+musicObjectProperties.rdf --> wd2
+wd2 --> music.owl
+
+cloud "Polifonia ontology" as polifonia #palegreen
+rectangle "polifonia/**download-ontologies.sh**" as downpolifonia #aliceblue
 folder "polifonia/ontology" as polifoniaowl #palegreen
 polifonia --> downpolifonia
 downpolifonia --> polifoniaowl
 
-rectangle "get_known_mappings.py" #aliceblue
+rectangle "**get_known_mappings.py**" as get_known_mappings #aliceblue
 file "known_mappings.tsv"
 file "wikidata/polifonia_wikidata.tsv" as polifonia_wikidata
-file "known_mappings.nq"
+file "known_mappings.nq" #palegreen
 note bottom of known_mappings.nq: Includes some manual matches, mainly for the core module
-known_mappings.nq --> get_known_mappings.py
-polifoniaowl --> get_known_mappings.py
-wikidata ..> get_known_mappings.py
-get_known_mappings.py --> known_mappings.tsv
-get_known_mappings.py --> polifonia_wikidata
-get_known_mappings.py --> known_mappings.nq
+known_mappings.nq --> get_known_mappings
+polifoniaowl --> get_known_mappings
+wikidata --> get_known_mappings
+get_known_mappings --> known_mappings.tsv
+get_known_mappings --> polifonia_wikidata
+get_known_mappings --> known_mappings.nq
 
-rectangle notebook #aliceblue
-file "wikidata/bertmap.yaml" as yml
-file "wikidata/bertmap_repaired_mappings.tsv" as repaired
+rectangle "Notebook **bertmap_match.ipynb**" as notebook #aliceblue
+file "bertmap.yaml" as yml
+file "bertmap_repaired_mappings.tsv" as repaired
 yml --> notebook
 known_mappings.tsv --> notebook
-musicowl --> notebook
+music.owl --> notebook
 polifoniaowl --> notebook
 notebook --> repaired
 
-rectangle "merge_true_with_bertmap.py" #aliceblue {
-rectangle "Part 1" as merge1 #aliceblue
-rectangle "Part 2" as merge2 #aliceblue
-}
+rectangle "**merge_true_with_bertmap.py** (part 1)" as merge1 #aliceblue
+rectangle "**merge_true_with_bertmap.py** (part 2)" as merge2 #aliceblue
 file all.tsv
 polifonia_wikidata --> merge1
 merge1 --> all.tsv
@@ -46,7 +61,7 @@ all.tsv --> merge2
 repaired --> merge2
 merge2 --> all_with_bertmap.tsv
 
-rectangle evaultate_all_with_bertmap.py as evaluate #aliceblue
+rectangle "**evaultate_all_with_bertmap.py**" as evaluate #aliceblue
 file "report.txt"
 all_with_bertmap.tsv --> evaluate
 evaluate --> report.txt
