@@ -1,14 +1,15 @@
 # Knowledge Engineering project
+
 Team “Antonio & Daniele”:
-- Antonio Politano <antonio.politano2@studio.unibo.it>
-- Daniele Santini <daniele.santini2@studio.unibo.it>
+
+- Antonio Politano ([S1082351](https://github.com/S1082351))
+- Daniele Santini ([Danysan1](https://github.com/Danysan1))
 
 ## Assignment
+
 Project 4 - Matching ontologies in the music domain
-Tutor: 
-- Valentina Carriero <valentina.carriero3@unibo.it>
-- Jacopo de Berardinis <jacopo.deberardinis@kcl.ac.uk>
-- Valentina Presutti <valentina.presutti@unibo.it>
+
+Tutor: Valentina Carriero, Jacopo de Berardinis, Valentina Presutti
 
 ### General tasks
 From [Projects2223.pdf](./Projects2223.pdf), page 5
@@ -77,3 +78,8 @@ Other resources:
     * [KRR-Oxford/OWL2Vec-Star](https://github.com/KRR-Oxford/OWL2Vec-Star) on GitHub
     * [Paper](https://arxiv.org/abs/2009.14654) on ArXiV
 
+## Execution:
+
+![Script flow](flow.svg)
+
+![Polifonia ontology fixes](polifonia/owl-imports-graph.svg)

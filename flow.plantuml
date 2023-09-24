@@ -27,6 +27,7 @@ rectangle "polifonia/**download-ontologies.sh**" as downpolifonia #aliceblue
 folder "polifonia/ontology" as polifoniaowl #palegreen
 polifonia --> downpolifonia
 downpolifonia --> polifoniaowl
+note right of polifoniaowl: See owl-imports-graph.svg for the patches applied to fix errors
 
 rectangle "**get_known_mappings.py**" as get_known_mappings #aliceblue
 file "known_mappings.tsv"
