@@ -2,6 +2,7 @@ SrcEntity	TgtEntity	Score
 https://w3id.org/polifonia/ontology/algorithm-pattern/Task	http://www.wikidata.org/entity/Q1365224	1.0
 https://w3id.org/polifonia/ontology/bell/Bell	http://www.wikidata.org/entity/Q101401	1.0
 https://w3id.org/polifonia/ontology/bell/SetOfBells	http://www.wikidata.org/entity/Q55721745	1.0
+https://w3id.org/polifonia/ontology/cometa/ChromaFeatures	http://www.wikidata.org/entity/Q25305103	1.0
 https://w3id.org/polifonia/ontology/cometa/RawDataContent	http://www.wikidata.org/entity/Q42848	1.0
 https://w3id.org/polifonia/ontology/cometa/ontology_URI#API	http://www.wikidata.org/entity/Q165194	1.0
 https://w3id.org/polifonia/ontology/cometa/ontology_URI#DataFormat	http://www.wikidata.org/entity/Q494823	1.0

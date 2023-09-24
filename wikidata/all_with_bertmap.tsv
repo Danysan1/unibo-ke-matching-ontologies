@@ -129,29 +129,29 @@ https://w3id.org/polifonia/ontology/music-projection/Key	http://www.wikidata.org
 https://w3id.org/polifonia/ontology/music-projection/NaturalAccidental	http://www.wikidata.org/entity/Q747691	http://www.wikidata.org/entity/Q20640663
 https://w3id.org/polifonia/ontology/music-projection/NaturalAccidental	http://www.wikidata.org/entity/Q747691	http://www.wikidata.org/entity/Q1662735
 https://w3id.org/polifonia/ontology/music-projection/Note	http://www.wikidata.org/entity/Q263478	
-https://w3id.org/polifonia/ontology/bell/BellTower		http://www.wikidata.org/entity/Q101401
-https://w3id.org/polifonia/ontology/cometa/ontology_URI#FeatureType		http://www.wikidata.org/entity/Q26260507
-https://w3id.org/polifonia/ontology/cometa/ontology_URI#DatasetRecord		http://www.wikidata.org/entity/Q55738966
-https://w3id.org/polifonia/ontology/cometa/ContentAnnotation		http://www.wikidata.org/entity/Q2843815
-https://w3id.org/polifonia/ontology/cometa/ontology_URI#ProductionMethod		http://www.wikidata.org/entity/Q959049
-https://w3id.org/polifonia/ontology/cometa/ontology_URI#ProductionMethod		http://www.wikidata.org/entity/Q1327157
-https://w3id.org/polifonia/ontology/cometa/ontology_URI#Dataset		http://www.wikidata.org/entity/Q646683
-http://w3id.org/polifonia/ontology/jams/JAMSAudioObservation		http://www.wikidata.org/entity/Q7275092
-http://w3id.org/polifonia/ontology/jams/JAMSAnnotation		http://www.wikidata.org/entity/Q3806379
-https://w3id.org/polifonia/ontology/instrument/InstrumentRealization		http://www.wikidata.org/entity/Q96401348
-https://w3id.org/polifonia/ontology/music-meta/FormType		http://www.wikidata.org/entity/Q3120694
-https://w3id.org/polifonia/ontology/music-meta/Mode		http://www.wikidata.org/entity/Q1058106
-https://w3id.org/polifonia/ontology/music-meta/MusicArtist		http://www.wikidata.org/entity/Q11895763
-https://w3id.org/polifonia/ontology/music-meta/DigitalScore		http://www.wikidata.org/entity/Q111166101
-https://w3id.org/polifonia/ontology/music-meta/DigitalScore		http://www.wikidata.org/entity/Q108671830
-https://w3id.org/polifonia/ontology/music-meta/DigitalScore		http://www.wikidata.org/entity/Q115063474
-https://w3id.org/polifonia/ontology/music-meta/DigitalScore		http://www.wikidata.org/entity/Q56580
-https://w3id.org/polifonia/ontology/music-meta/DigitalScore		http://www.wikidata.org/entity/Q50822193
-https://w3id.org/polifonia/ontology/music-meta/DigitalScore		http://www.wikidata.org/entity/Q3356240
-https://w3id.org/polifonia/ontology/music-meta/DigitalScore		http://www.wikidata.org/entity/Q1508837
-https://w3id.org/polifonia/ontology/music-meta/DigitalScore		http://www.wikidata.org/entity/Q73918100
-https://w3id.org/polifonia/ontology/music-meta/DigitalScore		http://www.wikidata.org/entity/Q5276064
-https://w3id.org/polifonia/ontology/music-meta/DigitalScore		http://www.wikidata.org/entity/Q108297229
+https://w3id.org/polifonia/ontology/bell/BellTower	http://www.wikidata.org/entity/Q200334	http://www.wikidata.org/entity/Q101401
+https://w3id.org/polifonia/ontology/cometa/ontology_URI#FeatureType	N/A	http://www.wikidata.org/entity/Q26260507
+https://w3id.org/polifonia/ontology/cometa/ontology_URI#DatasetRecord	N/A	http://www.wikidata.org/entity/Q55738966
+https://w3id.org/polifonia/ontology/cometa/ContentAnnotation	N/A	http://www.wikidata.org/entity/Q2843815
+https://w3id.org/polifonia/ontology/cometa/ontology_URI#ProductionMethod	http://www.wikidata.org/entity/Q1408286	http://www.wikidata.org/entity/Q959049
+https://w3id.org/polifonia/ontology/cometa/ontology_URI#ProductionMethod	http://www.wikidata.org/entity/Q1408286	http://www.wikidata.org/entity/Q1327157
+https://w3id.org/polifonia/ontology/cometa/ontology_URI#Dataset	http://www.wikidata.org/entity/Q1172284	http://www.wikidata.org/entity/Q646683
+http://w3id.org/polifonia/ontology/jams/JAMSAudioObservation	N/A	http://www.wikidata.org/entity/Q7275092
+http://w3id.org/polifonia/ontology/jams/JAMSAnnotation	N/A	http://www.wikidata.org/entity/Q3806379
+https://w3id.org/polifonia/ontology/instrument/InstrumentRealization	N/A	http://www.wikidata.org/entity/Q96401348
+https://w3id.org/polifonia/ontology/music-meta/FormType	N/A	http://www.wikidata.org/entity/Q3120694
+https://w3id.org/polifonia/ontology/music-meta/Mode	http://www.wikidata.org/entity/Q731978	http://www.wikidata.org/entity/Q1058106
+https://w3id.org/polifonia/ontology/music-meta/MusicArtist	http://www.wikidata.org/entity/Q1294626	http://www.wikidata.org/entity/Q11895763
+https://w3id.org/polifonia/ontology/music-meta/DigitalScore	N/A	http://www.wikidata.org/entity/Q111166101
+https://w3id.org/polifonia/ontology/music-meta/DigitalScore	N/A	http://www.wikidata.org/entity/Q108671830
+https://w3id.org/polifonia/ontology/music-meta/DigitalScore	N/A	http://www.wikidata.org/entity/Q115063474
+https://w3id.org/polifonia/ontology/music-meta/DigitalScore	N/A	http://www.wikidata.org/entity/Q56580
+https://w3id.org/polifonia/ontology/music-meta/DigitalScore	N/A	http://www.wikidata.org/entity/Q50822193
+https://w3id.org/polifonia/ontology/music-meta/DigitalScore	N/A	http://www.wikidata.org/entity/Q3356240
+https://w3id.org/polifonia/ontology/music-meta/DigitalScore	N/A	http://www.wikidata.org/entity/Q1508837
+https://w3id.org/polifonia/ontology/music-meta/DigitalScore	N/A	http://www.wikidata.org/entity/Q73918100
+https://w3id.org/polifonia/ontology/music-meta/DigitalScore	N/A	http://www.wikidata.org/entity/Q5276064
+https://w3id.org/polifonia/ontology/music-meta/DigitalScore	N/A	http://www.wikidata.org/entity/Q108297229
 https://w3id.org/polifonia/ontology/music-meta/LivePerformance		http://www.wikidata.org/entity/Q1866223
 https://w3id.org/polifonia/ontology/music-meta/LivePerformance		http://www.wikidata.org/entity/Q209939
 https://w3id.org/polifonia/ontology/music-meta/CompositionPart		http://www.wikidata.org/entity/Q2574657
