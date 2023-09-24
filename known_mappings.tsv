@@ -5,6 +5,8 @@ https://w3id.org/polifonia/ontology/bell/SetOfBells	http://www.wikidata.org/enti
 https://w3id.org/polifonia/ontology/cometa/RawDataContent	http://www.wikidata.org/entity/Q42848	1.0
 https://w3id.org/polifonia/ontology/cometa/ontology_URI#API	http://www.wikidata.org/entity/Q165194	1.0
 https://w3id.org/polifonia/ontology/cometa/ontology_URI#DataFormat	http://www.wikidata.org/entity/Q494823	1.0
+https://w3id.org/polifonia/ontology/cometa/ontology_URI#DataModality	http://www.wikidata.org/entity/Q6888030	1.0
+https://w3id.org/polifonia/ontology/cometa/ontology_URI#SplitType	http://www.wikidata.org/entity/Q3985153	1.0
 https://w3id.org/polifonia/ontology/core/Action	http://www.wikidata.org/entity/Q4026292	1.0
 https://w3id.org/polifonia/ontology/core/Address	http://www.wikidata.org/entity/Q319608	1.0
 https://w3id.org/polifonia/ontology/core/Agent	http://www.wikidata.org/entity/Q24229398	1.0
@@ -77,11 +79,13 @@ https://w3id.org/polifonia/ontology/music-meta/Musician	https://w3id.org/polifon
 https://w3id.org/polifonia/ontology/music-meta/Note	http://www.wikidata.org/entity/Q263478	1.0
 https://w3id.org/polifonia/ontology/music-meta/Publisher	http://www.wikidata.org/entity/Q3719391	1.0
 https://w3id.org/polifonia/ontology/music-meta/Recording	http://www.wikidata.org/entity/Q13557414	1.0
+https://w3id.org/polifonia/ontology/music-meta/RecordingEquipment	http://www.wikidata.org/entity/Q1312336	1.0
 https://w3id.org/polifonia/ontology/music-meta/RecordingProcess	http://www.wikidata.org/entity/Q13557414	1.0
 https://w3id.org/polifonia/ontology/music-meta/RecordingProcess	https://w3id.org/polifonia/ontology/wikimeta-music/Q13557414	1.0
 https://w3id.org/polifonia/ontology/music-meta/Release	http://www.wikidata.org/entity/Q3972943	1.0
 https://w3id.org/polifonia/ontology/music-meta/Score	http://www.wikidata.org/entity/Q109274999	1.0
 https://w3id.org/polifonia/ontology/music-meta/ScorePart	http://www.wikidata.org/entity/Q104479805	1.0
+https://w3id.org/polifonia/ontology/music-meta/Section	http://www.wikidata.org/entity/Q2115663	1.0
 https://w3id.org/polifonia/ontology/music-meta/StudioPerformance	http://www.wikidata.org/entity/Q15975575	1.0
 https://w3id.org/polifonia/ontology/music-meta/Text	http://www.wikidata.org/entity/Q234460	1.0
 https://w3id.org/polifonia/ontology/music-meta/Text	https://w3id.org/polifonia/ontology/wikimeta-music/Q234460	1.0
@@ -96,4 +100,6 @@ https://w3id.org/polifonia/ontology/music-projection/Clef	http://www.wikidata.or
 https://w3id.org/polifonia/ontology/music-projection/DiatonicStep	http://www.w3.org/2001/XMLSchema#int	1.0
 https://w3id.org/polifonia/ontology/music-projection/Interval	http://www.wikidata.org/entity/Q189962	1.0
 https://w3id.org/polifonia/ontology/music-projection/Key	http://www.wikidata.org/entity/Q534932	1.0
+https://w3id.org/polifonia/ontology/music-projection/NaturalAccidental	http://www.wikidata.org/entity/Q747691	1.0
 https://w3id.org/polifonia/ontology/music-projection/Note	http://www.wikidata.org/entity/Q263478	1.0
+https://w3id.org/polifonia/ontology/music-projection/hasModeType	https://w3id.org/polifonia/ontology/music-projection/hasModalType	1.0

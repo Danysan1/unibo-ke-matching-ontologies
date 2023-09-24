@@ -22,7 +22,7 @@ music-annotation.original.ttl,https://w3id.org/polifonia/ontology/music-annotati
 music-meta.owl,https://w3id.org/polifonia/ontology/music-meta/
 musicmeta-aligns.owl,https://raw.githubusercontent.com/polifonia-project/music-meta-ontology/main/ontology/musicmeta-aligns.owl
 music-projection.original.owl,https://w3id.org/polifonia/ontology/music-projection/
-music-representation.original.owl,https://w3id.org/polifonia/ontology/music-representation/
+music-representation.owl,https://w3id.org/polifonia/ontology/music-representation/
 organs.original.owl,https://w3id.org/polifonia/ontology/organs/
 source.owl,https://w3id.org/polifonia/ontology/source/
 tunes.original.ttl,https://w3id.org/polifonia/ontology/tunes/
