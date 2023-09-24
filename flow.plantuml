@@ -1,5 +1,6 @@
 @startuml flow
 
+rectangle "**download-ontologies.sh**" {
 cloud "Wikidata Query Service" as wikidata #palegreen
 file musicClasses.rq
 file musicDataProperties.rq
@@ -40,27 +41,23 @@ wikidata --> get_known_mappings
 get_known_mappings --> known_mappings.tsv
 get_known_mappings --> polifonia_wikidata
 get_known_mappings --> known_mappings.nq
+}
 
 rectangle "Notebook **bertmap_match.ipynb**" as notebook #aliceblue
 file "bertmap.yaml" as yml
 file "bertmap_repaired_mappings.tsv" as repaired
-yml --> notebook
+yml -> notebook
 known_mappings.tsv --> notebook
 music.owl --> notebook
 polifoniaowl --> notebook
 notebook --> repaired
 
-rectangle "**merge_true_with_bertmap.py** (part 1)" as merge1 #aliceblue
-rectangle "**merge_true_with_bertmap.py** (part 2)" as merge2 #aliceblue
-file all.tsv
-polifonia_wikidata --> merge1
-merge1 --> all.tsv
-
 file "all_with_bertmap.tsv"
+rectangle "**merge_true_with_bertmap.py**" as merge_true_with_bertmap #aliceblue
 note left of all_with_bertmap.tsv: Manual (true) matches are added to all classes which have a Bertmap (predicted) match and no known mapping
-all.tsv --> merge2
-repaired --> merge2
-merge2 --> all_with_bertmap.tsv
+polifonia_wikidata --> merge_true_with_bertmap
+repaired -> merge_true_with_bertmap
+merge_true_with_bertmap --> all_with_bertmap.tsv
 
 rectangle "**evaultate_all_with_bertmap.py**" as evaluate #aliceblue
 file "report.txt"
