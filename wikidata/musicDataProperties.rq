@@ -10,8 +10,13 @@ CONSTRUCT {
   # ?domain rdf:type owl:Class;
   #         rdfs:label ?domainLabel;
   #         owl:unionOf ( ?domainElement ).
-}
-WHERE {
+} WHERE {
+  {
+    ?prop wdt:P31/wdt:P279* wd:Q27525351.
+  } UNION {
+    ?prop wdt:P6104 wd:Q5830855.
+  }
+
   VALUES (?type ?range) { # https://www.wikidata.org/wiki/Help:Data_type#Technical_details
     (wikibase:Quantity xsd:decimal)
     (wikibase:Time xsd:dateTime)
@@ -20,7 +25,6 @@ WHERE {
     (wikibase:MusicalNotation xsd:string)
   }
   ?prop wikibase:propertyType ?type;
-        wdt:P31/wdt:P279* wd:Q27525351;
         rdfs:label ?propLabel FILTER(lang(?propLabel) = 'en').
   
   # BIND(IRI(REPLACE(
