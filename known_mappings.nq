@@ -105,3 +105,4 @@
 <https://w3id.org/polifonia/ontology/music-projection/Key> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.wikidata.org/entity/Q534932> <https://github.com/Danysan1/unibo-ke-matching-ontologies/manual-matches/> .
 <https://w3id.org/polifonia/ontology/music-projection/NaturalAccidental> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.wikidata.org/entity/Q747691> <https://github.com/Danysan1/unibo-ke-matching-ontologies/manual-matches/> .
 <https://w3id.org/polifonia/ontology/music-projection/Note> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.wikidata.org/entity/Q263478> <https://github.com/Danysan1/unibo-ke-matching-ontologies/manual-matches/> .
+<https://w3id.org/polifonia/ontology/music-projection/PitchClass> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.wikidata.org/entity/Q1760309> <https://github.com/Danysan1/unibo-ke-matching-ontologies/manual-matches/> .
