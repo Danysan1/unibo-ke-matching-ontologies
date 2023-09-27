@@ -53,6 +53,7 @@
                     http://www.wikidata.org/entity/Q17172850       1.00      1.00      1.00         1
                     http://www.wikidata.org/entity/Q17518883       0.00      0.00      0.00         0
                      http://www.wikidata.org/entity/Q1758937       0.00      0.00      0.00         0
+                     http://www.wikidata.org/entity/Q1760309       0.00      0.00      0.00         1
                        http://www.wikidata.org/entity/Q17737       0.00      0.00      0.00         1
                      http://www.wikidata.org/entity/Q1798603       0.00      0.00      0.00         0
                       http://www.wikidata.org/entity/Q181040       0.00      0.00      0.00         1
@@ -176,6 +177,6 @@ https://w3id.org/polifonia/ontology/wikimeta-music/Q15265344       0.00      0.0
    https://w3id.org/polifonia/ontology/wikimeta-music/Q79719       0.00      0.00      0.00         1
                                                          nan       0.00      0.00      0.00        34
 
-                                                    accuracy                           0.05       173
-                                                   macro avg       0.04      0.04      0.04       173
-                                                weighted avg       0.06      0.05      0.05       173
+                                                    accuracy                           0.05       174
+                                                   macro avg       0.04      0.04      0.04       174
+                                                weighted avg       0.06      0.05      0.05       174
