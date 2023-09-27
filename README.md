@@ -51,6 +51,7 @@ Full list: [link](https://github.com/polifonia-project/ontology-network/blob/5e9
             * [Website](https://krr-oxford.github.io/DeepOnto/)
             * [BERTMap under DeepOnto](https://krr-oxford.github.io/DeepOnto/bertmap/)
             * [KRR-Oxford/DeepOnto](https://github.com/KRR-Oxford/DeepOnto) on GitHub
+            * See [bertmap.png](bertmap.png)
 * Abandoned
     * AgreementMaker
         * [Website](https://agreementmaker.github.io/)
@@ -64,7 +65,7 @@ Other resources:
     * [KRR-Oxford/OWL2Vec-Star](https://github.com/KRR-Oxford/OWL2Vec-Star) on GitHub
     * [Paper](https://arxiv.org/abs/2009.14654) on ArXiV
 
-# Execution:
+# Execution
 
 We choose to execute the matching between Wikidata and Polifonia using BertMap.
 
